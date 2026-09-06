@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JSPL Network Monitor - Email Config</title>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: 'Open Sans', sans-serif; background: #0f0f1a; color: #333; }
+
+        /* Top Navigation */
+        .topbar {
+            background: #1a1a2e;
+            height: 56px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 24px;
+            border-bottom: 2px solid #c1121f;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .topbar-left { display: flex; align-items: center; gap: 16px; }
+
+        .brand {
+            font-family: 'Rajdhani', sans-serif;
+            font-size: 20px;
+            font-weight: 700;
+            color: white;
+            letter-spacing: 2px;
+        }
+        .brand span { color: #c1121f; }
+
+        .page-badge {
+            font-size: 10px;
+            color: rgba(255,255,255,0.4);
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            border-left: 1px solid rgba(255,255,255,0.15);
+            padding-left: 14px;
+        }
+
+        .topbar-right { display: flex; align-items: center; gap: 14px; font-size: 12px; }
+
+        .user-info { color: rgba(255,255,255,0.6); }
+        .user-info strong { color: white; }
+
+        .role-pill {
+            padding: 3px 10px;
+            border-radius: 2px;
+            font-size: 10px;
+            font-weight: 700;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+        .role-admin { background: #c1121f; color: white; }
+        .role-user { background: #185FA5; color: white; }
+
+        .logout-link {
+            color: rgba(255,255,255,0.4);
+            text-decoration: none;
+            font-size: 11px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            border: 1px solid rgba(255,255,255,0.15);
+            padding: 5px 12px;
+            border-radius: 2px;
+            transition: all 0.2s;
+        }
+        .logout-link:hover { color: white; border-color: #c1121f; }
+
+        /* Main content area */
+        .main { padding: 20px 24px; max-width: 600px; margin: 0 auto; }
+
+        /* Flash message */
+        .flash-msg {
+            background: #1a2e1a;
+            border-left: 3px solid #28a745;
+            color: #5cb85c;
+            padding: 10px 16px;
+            font-size: 13px;
+            margin-bottom: 20px;
+            border-radius: 2px;
+        }
+
+        /* Action bar */
+        .action-bar {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 16px;
+            background: #1a1a2e;
+            padding: 12px 16px;
+            border-radius: 3px;
+            border: 1px solid rgba(255,255,255,0.06);
+        }
+
+        .btn {
+            padding: 7px 14px;
+            border-radius: 2px;
+            font-size: 11px;
+            font-weight: 600;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            cursor: pointer;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+            border: none;
+            font-family: 'Open Sans', sans-serif;
+            transition: all 0.2s;
+        }
+
+        .btn-primary { background: #c1121f; color: white; }
+        .btn-primary:hover { background: #a00e18; color: white; }
+        .btn-secondary { background: rgba(255,255,255,0.07); color: rgba(255,255,255,0.7); border: 1px solid rgba(255,255,255,0.1); }
+        .btn-secondary:hover { background: rgba(255,255,255,0.12); color: white; }
+        .btn-success { background: #28a745; color: white; }
+        .btn-success:hover { background: #218838; color: white; }
+
+        /* Config form */
+        .config-card {
+            background: #1a1a2e;
+            border: 1px solid rgba(255,255,255,0.06);
+            border-radius: 3px;
+            padding: 20px;
+            margin-bottom: 16px;
+        }
+
+        .config-title {
+            font-family: 'Rajdhani', sans-serif;
+            font-size: 14px;
+            font-weight: 600;
+            color: white;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 16px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid rgba(255,255,255,0.05);
+        }
+
+        .form-group {
+            margin-bottom: 16px;
+        }
+
+        .form-label {
+            display: block;
+            font-size: 12px;
+            color: rgba(255,255,255,0.6);
+            margin-bottom: 6px;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .form-input-dark {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: 2px;
+            padding: 12px 14px;
+            font-size: 13px;
+            color: white;
+            width: 100%;
+            font-family: 'Open Sans', sans-serif;
+            outline: none;
+        }
+
+        .form-input-dark:focus { border-color: #c1121f; }
+        .form-input-dark::placeholder { color: rgba(255,255,255,0.25); }
+
+        .form-row { display: flex; gap: 12px; align-items: end; }
+        .form-row .form-input-dark { flex: 1; }
+
+        /* Info cards */
+        .info-card {
+            background: rgba(255,255,255,0.03);
+            border: 1px solid rgba(255,255,255,0.06);
+            border-radius: 3px;
+            padding: 14px 16px;
+            margin-bottom: 16px;
+        }
+
+        .info-card.success {
+            border-left: 3px solid #28a745;
+            color: #5cb85c;
+        }
+
+        .info-card.info {
+            border-left: 3px solid #17a2b8;
+            color: #5bc0de;
+        }
+
+        .info-card.warning {
+            border-left: 3px solid #ffc107;
+            color: #ffc107;
+        }
+
+        .info-icon {
+            font-size: 16px;
+            margin-right: 8px;
+        }
+
+        .config-status {
+            font-family: 'Rajdhani', sans-serif;
+            font-size: 13px;
+            font-weight: 600;
+        }
+
+        @media (max-width: 768px) {
+            .main { padding: 20px 16px; }
+            .form-row { flex-direction: column; align-items: stretch; }
+        }
+    </style>
+</head>
+<body>
+
+<!-- Topbar -->
+<div class="topbar">
+    <div class="topbar-left">
+        <div class="brand">JINDAL <span>STEEL</span></div>
+        <div class="page-badge">Email Config</div>
+    </div>
+    <div class="topbar-right">
+        <span class="user-info">
+            <strong>{{ session.username }}</strong>
+            <span class="role-pill {% if role == 'admin' %}role-admin{% else %}role-user{% endif %}">{{ role }}</span>
+        </span>
+        <a href="/logout" class="logout-link">Logout</a>
+    </div>
+</div>
+
+<div class="main">
+
+    <!-- Flash -->
+    {% with messages = get_flashed_messages() %}
+    {% if messages %}{% for message in messages %}
+    <div class="flash-msg" id="flash-msg">&#10003; {{ message }}</div>
+    {% endfor %}{% endif %}
+    {% endwith %}
+    <script>
+        setTimeout(function() {
+            var m = document.getElementById('flash-msg');
+            if(m){ m.style.transition='opacity 1s'; m.style.opacity='0'; setTimeout(function(){ m.remove(); },1000); }
+        }, 3000);
+    </script>
+
+    <!-- Action Bar -->
+    <div class="action-bar">
+        <a href="/" class="btn btn-secondary">&#8592; Dashboard</a>
+    </div>
+
+    <!-- Gmail Info -->
+    <div class="info-card info">
+        <span class="info-icon">ℹ️</span>
+        Use a <strong>dedicated Gmail account</strong> for alerts. Enable
+        <strong>2-Step Verification</strong> and generate an <strong>App Password</strong>.
+    </div>
+
+    <!-- Email Config Form -->
+    <div class="config-card">
+        <div class="config-title">⚙️ Email Sender Configuration</div>
+        <form action="/email_config" method="post">
+            <div class="form-group">
+                <label class="form-label">Sender Gmail Address</label>
+                <input type="email" name="sender_email"
+                       value="{{ config.sender_email if config else '' }}"
+                       placeholder="alerts@jindalsteel.com" required
+                       class="form-input-dark">
+            </div>
+
+            <div class="form-group">
+                <label class="form-label">App Password (16 characters)</label>
+                <input type="password" name="sender_password"
+                       value="{{ config.sender_password if config else '' }}"
+                       placeholder="xxxx xxxx xxxx xxxx" required
+                       class="form-input-dark">
+            </div>
+
+            <button type="submit" class="btn btn-success">
+                💾 Save Configuration
+            </button>
+        </form>
+    </div>
+
+    <!-- Current Status -->
+    {% if config %}
+    <div class="info-card success">
+        <span class="info-icon">✅</span>
+        <span class="config-status">Current sender: {{ config.sender_email }}</span>
+    </div>
+    {% else %}
+    <div class="info-card warning">
+        <span class="info-icon">⚠️</span>
+        No email settings configured yet.
+    </div>
+    {% endif %}
+
+</div>
+
+</body>
+</html>

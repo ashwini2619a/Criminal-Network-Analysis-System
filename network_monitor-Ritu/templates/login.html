@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JSPL Network Monitor - Login</title>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        body {
+            font-family: 'Open Sans', sans-serif;
+            min-height: 100vh;
+            background: #0a0a14;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        /* Animated background grid */
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background-image:
+                linear-gradient(rgba(180,20,20,0.05) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(180,20,20,0.05) 1px, transparent 1px);
+            background-size: 40px 40px;
+            animation: gridMove 20s linear infinite;
+        }
+
+        @keyframes gridMove {
+            0% { transform: translateY(0); }
+            100% { transform: translateY(40px); }
+        }
+
+        /* Steel texture overlay */
+        body::after {
+            content: '';
+            position: fixed;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: radial-gradient(ellipse at 20% 50%, rgba(193,18,31,0.08) 0%, transparent 60%),
+                        radial-gradient(ellipse at 80% 50%, rgba(26,26,46,0.8) 0%, transparent 60%);
+            pointer-events: none;
+        }
+
+        .login-wrapper {
+            display: flex;
+            width: 900px;
+            min-height: 540px;
+            position: relative;
+            z-index: 10;
+            border-radius: 4px;
+            overflow: hidden;
+            box-shadow: 0 40px 80px rgba(0,0,0,0.6), 0 0 0 1px rgba(193,18,31,0.3);
+        }
+
+        /* Left panel - branding */
+        .left-panel {
+            width: 45%;
+            background: linear-gradient(145deg, #1a1a2e 0%, #0f0f1a 100%);
+            padding: 48px 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            position: relative;
+            border-right: 1px solid rgba(193,18,31,0.4);
+        }
+
+        .left-panel::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; right: 0;
+            height: 3px;
+            background: linear-gradient(90deg, #c1121f, #ff4444, #c1121f);
+        }
+
+        /* Decorative steel lines */
+        .steel-lines {
+            position: absolute;
+            bottom: 60px;
+            left: 0;
+            right: 0;
+            height: 120px;
+            opacity: 0.06;
+            background: repeating-linear-gradient(
+                0deg,
+                #ffffff,
+                #ffffff 1px,
+                transparent 1px,
+                transparent 8px
+            );
+        }
+
+        .brand-area { position: relative; z-index: 2; }
+
+        .brand-icon {
+            width: 52px;
+            height: 52px;
+            background: #c1121f;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+            clip-path: polygon(0 0, 85% 0, 100% 15%, 100% 100%, 15% 100%, 0 85%);
+        }
+
+        .brand-icon svg { width: 28px; height: 28px; fill: white; }
+
+        .brand-name {
+            font-family: 'Rajdhani', sans-serif;
+            font-size: 28px;
+            font-weight: 700;
+            color: white;
+            letter-spacing: 2px;
+            line-height: 1;
+        }
+
+        .brand-name span { color: #c1121f; }
+
+        .brand-sub {
+            font-size: 11px;
+            color: rgba(255,255,255,0.4);
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            margin-top: 6px;
+        }
+
+        .brand-desc {
+            margin-top: 40px;
+            font-size: 13px;
+            color: rgba(255,255,255,0.5);
+            line-height: 1.8;
+        }
+
+        .stat-row {
+            display: flex;
+            gap: 24px;
+            margin-top: 32px;
+            position: relative;
+            z-index: 2;
+        }
+
+        .stat-item { }
+        .stat-num {
+            font-family: 'Rajdhani', sans-serif;
+            font-size: 28px;
+            font-weight: 700;
+            color: #c1121f;
+            line-height: 1;
+        }
+        .stat-lbl {
+            font-size: 10px;
+            color: rgba(255,255,255,0.35);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-top: 3px;
+        }
+
+        .bottom-tag {
+            font-size: 10px;
+            color: rgba(255,255,255,0.2);
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            position: relative;
+            z-index: 2;
+        }
+
+        /* Right panel - login form */
+        .right-panel {
+            width: 55%;
+            background: #f5f5f0;
+            padding: 48px 44px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .login-title {
+            font-family: 'Rajdhani', sans-serif;
+            font-size: 26px;
+            font-weight: 700;
+            color: #1a1a2e;
+            letter-spacing: 1px;
+            margin-bottom: 6px;
+        }
+
+        .login-sub {
+            font-size: 12px;
+            color: #999;
+            margin-bottom: 36px;
+            letter-spacing: 0.5px;
+        }
+
+        .flash-error {
+            background: #fff0f0;
+            border-left: 3px solid #c1121f;
+            color: #c1121f;
+            padding: 10px 14px;
+            font-size: 13px;
+            margin-bottom: 20px;
+            border-radius: 2px;
+        }
+
+        .form-group { margin-bottom: 20px; }
+
+        .form-label {
+            display: block;
+            font-size: 11px;
+            font-weight: 600;
+            color: #666;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            margin-bottom: 8px;
+        }
+
+        .form-input {
+            width: 100%;
+            padding: 12px 16px;
+            background: white;
+            border: 1.5px solid #e0e0e0;
+            border-radius: 2px;
+            font-size: 14px;
+            color: #1a1a2e;
+            font-family: 'Open Sans', sans-serif;
+            transition: border-color 0.2s;
+            outline: none;
+        }
+
+        .form-input:focus { border-color: #c1121f; }
+
+        /* Role selector */
+        .role-selector {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 24px;
+        }
+
+        .role-btn {
+            flex: 1;
+            padding: 10px;
+            border: 1.5px solid #e0e0e0;
+            background: white;
+            border-radius: 2px;
+            font-size: 12px;
+            font-weight: 600;
+            color: #999;
+            cursor: pointer;
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: all 0.2s;
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        .role-btn.active {
+            border-color: #c1121f;
+            background: #c1121f;
+            color: white;
+        }
+
+        .login-btn {
+            width: 100%;
+            padding: 13px;
+            background: #1a1a2e;
+            color: white;
+            border: none;
+            border-radius: 2px;
+            font-size: 13px;
+            font-weight: 600;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            cursor: pointer;
+            font-family: 'Rajdhani', sans-serif;
+            transition: background 0.2s;
+            margin-top: 8px;
+        }
+
+        .login-btn:hover { background: #c1121f; }
+
+        .secure-tag {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            margin-top: 20px;
+            font-size: 11px;
+            color: #bbb;
+        }
+
+        .secure-dot {
+            width: 6px;
+            height: 6px;
+            background: #28a745;
+            border-radius: 50%;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.3; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="login-wrapper">
+
+    <!-- Left Branding Panel -->
+    <div class="left-panel">
+        <div class="steel-lines"></div>
+
+        <div class="brand-area">
+            <div class="brand-logo-container" style="margin-bottom: 20px; display: flex; align-items: center; justify-content: flex-start;">
+                <img src="/static/Logo.png" alt="Logo" style="height: 64px; width: auto; object-fit: contain;">
+            </div>
+            <div class="brand-name">JINDAL <span>STEEL</span></div>
+            <div class="brand-sub">&amp; Power Limited</div>
+            <div class="brand-desc">
+                Network Infrastructure<br>
+                Monitoring System<br><br>
+                Real-time visibility into your<br>
+                network devices and CCTV<br>
+                infrastructure.
+            </div>
+        </div>
+
+        <div>
+            <div class="stat-row">
+                <div class="stat-item">
+                    <div class="stat-num">500+</div>
+                    <div class="stat-lbl">Devices</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-num">15m</div>
+                    <div class="stat-lbl">Ping cycle</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-num">24/7</div>
+                    <div class="stat-lbl">Monitoring</div>
+                </div>
+            </div>
+            <div class="bottom-tag" style="margin-top:32px;">Internal Use Only &bull; Patna</div>
+        </div>
+    </div>
+
+    <!-- Right Login Panel -->
+    <div class="right-panel">
+        <div class="login-title">SECURE LOGIN</div>
+        <div class="login-sub">Select your role and enter credentials</div>
+
+        {% with messages = get_flashed_messages() %}
+        {% if messages %}
+            {% for message in messages %}
+            <div class="flash-error">&#9888; {{ message }}</div>
+            {% endfor %}
+        {% endif %}
+        {% endwith %}
+
+        <!-- Role Selector -->
+        <div class="role-selector">
+            <button class="role-btn active" onclick="setRole('admin', this)">&#128737; Admin</button>
+            <button class="role-btn" onclick="setRole('user', this)">&#128100; User</button>
+        </div>
+
+        <form action="/login" method="post">
+            <input type="hidden" name="selected_role" id="selected_role" value="admin">
+
+            <div class="form-group">
+                <label class="form-label">Username</label>
+                <input class="form-input" type="text" name="username" placeholder="Enter username" required autofocus>
+            </div>
+
+            <div class="form-group">
+                <label class="form-label">Password</label>
+                <input class="form-input" type="password" name="password" placeholder="Enter password" required>
+            </div>
+
+            <button type="submit" class="login-btn">&#8594; Access System</button>
+        </form>
+
+        <div class="secure-tag">
+            <div class="secure-dot"></div>
+            Secured connection &bull; Authorized personnel only
+        </div>
+    </div>
+
+</div>
+
+<script>
+function setRole(role, btn) {
+    document.querySelectorAll('.role-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    document.getElementById('selected_role').value = role;
+}
+</script>
+
+</body>
+</html>

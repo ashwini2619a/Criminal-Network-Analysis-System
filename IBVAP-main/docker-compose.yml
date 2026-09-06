@@ -1,0 +1,105 @@
+version: '3.8'
+
+services:
+  edge-engine:
+    build:
+      context: .
+      dockerfile: Dockerfile.edge
+    image: ibvap-edge:latest
+    container_name: ibvap-edge-engine
+    runtime: nvidia
+    environment:
+      - NVIDIA_VISIBLE_DEVICES=all
+      - IBVAP_RTSP_URL=${RTSP_URL:-rtsp://localhost:8554/stream}
+      - IBVAP_CAMERA_ID=${CAMERA_ID:-CAM-001}
+      - IBVAP_BOP_ID=${BOP_ID:-BOP-ALPHA}
+      - IBVAP_BACKEND_API_URL=http://backend:8000/api/v1/alerts
+      - IBVAP_BACKEND_WS_URL=ws://backend:8000/ws/alerts
+    volumes:
+      - ./edge_engine:/app/edge_engine
+      - ibvap-models:/app/models
+    working_dir: /app
+    command: python -m edge_engine.main_edge
+    depends_on:
+      backend:
+        condition: service_healthy
+    networks:
+      - ibvap-net
+    restart: unless-stopped
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile.backend
+    image: ibvap-backend:latest
+    container_name: ibvap-backend
+    ports:
+      - "8000:8000"
+    environment:
+      - DATABASE_URL=sqlite+aiosqlite:///./ibvap.db
+      - CORS_ORIGINS=*
+    volumes:
+      - ./backend:/app/backend
+      - ibvap-data:/app/data
+    working_dir: /app
+    command: python -m backend.server
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+    networks:
+      - ibvap-net
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile.frontend
+    image: ibvap-frontend:latest
+    container_name: ibvap-frontend
+    ports:
+      - "3000:3000"
+    environment:
+      - VITE_API_URL=http://localhost:8000
+      - VITE_WS_URL=ws://localhost:8000
+    command: npm run dev -- --host 0.0.0.0 --port 3000
+    depends_on:
+      backend:
+        condition: service_healthy
+    networks:
+      - ibvap-net
+    restart: unless-stopped
+
+  redis:
+    image: redis:7-alpine
+    container_name: ibvap-redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - ibvap-redis:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - ibvap-net
+    restart: unless-stopped
+
+networks:
+  ibvap-net:
+    driver: bridge
+
+volumes:
+  ibvap-models:
+  ibvap-data:
+  ibvap-redis:

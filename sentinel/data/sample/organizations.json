@@ -1,0 +1,97 @@
+[
+  {
+    "id": "ORG-EXTORTION-DHN",
+    "name": "Dhanbad Coalfield Extortion Syndicate",
+    "aliases": [
+      "Koyla Syndicate",
+      "Chhotu Singh Gang"
+    ],
+    "type": "GANG",
+    "threat_level": 9,
+    "leader_id": "SUSP-DBA3397F",
+    "active_states": [
+      "Jharkhand",
+      "Bihar",
+      "West Bengal"
+    ],
+    "estimated_members": 45,
+    "node_type": "Organization",
+    "label": "Dhanbad Coalfield Extortion Syndicate"
+  },
+  {
+    "id": "ORG-NARCOTICS-GAYA",
+    "name": "Patna-Gaya Inter-State Narcotics Cartel",
+    "aliases": [
+      "G.T. Road Supply Ring"
+    ],
+    "type": "CARTEL",
+    "threat_level": 8,
+    "leader_id": "SUSP-E0F10031",
+    "active_states": [
+      "Bihar",
+      "Jharkhand",
+      "Uttar Pradesh"
+    ],
+    "estimated_members": 30,
+    "node_type": "Organization",
+    "label": "Patna-Gaya Narcotics Cartel"
+  },
+  {
+    "id": "ORG-CYBER-JAMTARA",
+    "name": "Jamtara Cyber Fraud & APK Phishing Network",
+    "aliases": [
+      "Bank KYC Phishing Ring",
+      "Jam-Squad"
+    ],
+    "type": "SHELL_COMPANY",
+    "threat_level": 7,
+    "leader_id": "SUSP-0866B95A",
+    "active_states": [
+      "Jharkhand",
+      "Maharashtra",
+      "Delhi",
+      "Karnataka"
+    ],
+    "estimated_members": 25,
+    "node_type": "Organization",
+    "label": "Jamtara Cyber Fraud Syndicate"
+  },
+  {
+    "id": "ORG-TRAFFICKING-RANCHI",
+    "name": "Eastern Regional Women Safety & Trafficking Ring",
+    "aliases": [
+      "Placement Agency Front",
+      "Asha Services"
+    ],
+    "type": "NGO_FRONT",
+    "threat_level": 9,
+    "leader_id": "SUSP-E548F04A",
+    "active_states": [
+      "Jharkhand",
+      "Delhi",
+      "Haryana"
+    ],
+    "estimated_members": 20,
+    "node_type": "Organization",
+    "label": "Eastern Women Trafficking Ring"
+  },
+  {
+    "id": "ORG-ARMS-MUNGER",
+    "name": "Munger-Ranchi Country Arms Smuggling Cell",
+    "aliases": [
+      "Katta Network",
+      "Barrel Brothers"
+    ],
+    "type": "HAWALA_NETWORK",
+    "threat_level": 8,
+    "leader_id": "SUSP-1B8D7AC4",
+    "active_states": [
+      "Bihar",
+      "Jharkhand",
+      "Uttar Pradesh"
+    ],
+    "estimated_members": 15,
+    "node_type": "Organization",
+    "label": "Munger-Ranchi Arms Supply Cell"
+  }
+]

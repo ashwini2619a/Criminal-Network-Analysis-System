@@ -1,0 +1,659 @@
+[
+  {
+    "id": "INC-101",
+    "fir_no": "FIR/2026/101",
+    "police_station": "Cantonment PS",
+    "district": "Varanasi",
+    "state": "Uttar Pradesh",
+    "ipc_sections": [
+      "20/22 NDPS Act",
+      "120B"
+    ],
+    "date_time": "2026-02-15T18:00:00",
+    "severity": "HIGH",
+    "crime_type": "NARCOTICS",
+    "description": "Armed narcotics reported at Cantonment PS. Accused Praveen Dubey identified with vehicle BR-02-YW-2218.",
+    "investigating_officer": "Inspector R. K. Choudhary",
+    "status": "UNDER_INVESTIGATION",
+    "lat": 19.0735,
+    "lon": 72.82542,
+    "accused_ids": [
+      "SUSP-E0F10031"
+    ],
+    "vehicle_id": "VEH-0FFBFB96",
+    "node_type": "Incident",
+    "label": "FIR/2026/101 (NARCOTICS)"
+  },
+  {
+    "id": "INC-102",
+    "fir_no": "FIR/2026/102",
+    "police_station": "Sadar PS",
+    "district": "Hazaribagh",
+    "state": "Jharkhand",
+    "ipc_sections": [
+      "307",
+      "326",
+      "147",
+      "148"
+    ],
+    "date_time": "2026-02-26T08:00:00",
+    "severity": "HIGH",
+    "crime_type": "MURDER",
+    "description": "Armed murder reported at Sadar PS. Accused Vijay Patel identified with vehicle JH-10-MC-7066.",
+    "investigating_officer": "Inspector R. K. Choudhary",
+    "status": "UNDER_INVESTIGATION",
+    "lat": 19.1188,
+    "lon": 72.83526,
+    "accused_ids": [
+      "SUSP-0866B95A"
+    ],
+    "vehicle_id": "VEH-E1B4049B",
+    "node_type": "Incident",
+    "label": "FIR/2026/102 (MURDER)"
+  },
+  {
+    "id": "INC-103",
+    "fir_no": "FIR/2026/103",
+    "police_station": "Town PS",
+    "district": "Deoghar",
+    "state": "Jharkhand",
+    "ipc_sections": [
+      "20/22 NDPS Act",
+      "120B"
+    ],
+    "date_time": "2026-01-23T07:00:00",
+    "severity": "HIGH",
+    "crime_type": "NARCOTICS",
+    "description": "Armed narcotics reported at Town PS. Accused Bittu Shankar identified with vehicle JH-01-BA-1703.",
+    "investigating_officer": "Inspector R. K. Choudhary",
+    "status": "UNDER_INVESTIGATION",
+    "lat": 26.17276,
+    "lon": 85.31467,
+    "accused_ids": [
+      "SUSP-E548F04A"
+    ],
+    "vehicle_id": "VEH-05C00261",
+    "node_type": "Incident",
+    "label": "FIR/2026/103 (NARCOTICS)"
+  },
+  {
+    "id": "INC-104",
+    "fir_no": "FIR/2026/104",
+    "police_station": "Town PS",
+    "district": "Deoghar",
+    "state": "Jharkhand",
+    "ipc_sections": [
+      "364A",
+      "384",
+      "120B"
+    ],
+    "date_time": "2026-01-28T13:00:00",
+    "severity": "CRITICAL",
+    "crime_type": "KIDNAPPING",
+    "description": "Armed kidnapping reported at Town PS. Accused Pooja Pandey identified with vehicle JH-01-YA-2773.",
+    "investigating_officer": "Inspector R. K. Choudhary",
+    "status": "UNDER_INVESTIGATION",
+    "lat": 23.37432,
+    "lon": 85.36436,
+    "accused_ids": [
+      "SUSP-1B8D7AC4"
+    ],
+    "vehicle_id": "VEH-66599A44",
+    "node_type": "Incident",
+    "label": "FIR/2026/104 (KIDNAPPING)"
+  },
+  {
+    "id": "INC-105",
+    "fir_no": "FIR/2026/105",
+    "police_station": "Cantonment PS",
+    "district": "Varanasi",
+    "state": "Uttar Pradesh",
+    "ipc_sections": [
+      "420",
+      "468",
+      "471",
+      "66D IT Act"
+    ],
+    "date_time": "2026-02-13T08:00:00",
+    "severity": "MEDIUM",
+    "crime_type": "CYBERCRIME",
+    "description": "Armed cybercrime reported at Cantonment PS. Accused Dinesh Gupta identified with vehicle BR-01-GH-1635.",
+    "investigating_officer": "Inspector R. K. Choudhary",
+    "status": "UNDER_INVESTIGATION",
+    "lat": 23.32171,
+    "lon": 85.31957,
+    "accused_ids": [
+      "SUSP-0385B63E"
+    ],
+    "vehicle_id": "VEH-332D735B",
+    "node_type": "Incident",
+    "label": "FIR/2026/105 (CYBERCRIME)"
+  },
+  {
+    "id": "INC-106",
+    "fir_no": "FIR/2026/106",
+    "police_station": "Bankmore PS",
+    "district": "Dhanbad",
+    "state": "Jharkhand",
+    "ipc_sections": [
+      "307",
+      "326",
+      "147",
+      "148"
+    ],
+    "date_time": "2026-02-05T17:00:00",
+    "severity": "HIGH",
+    "crime_type": "MURDER",
+    "description": "Armed murder reported at Bankmore PS. Accused Santosh Tiwari identified with vehicle BR-02-PO-9668.",
+    "investigating_officer": "Inspector R. K. Choudhary",
+    "status": "UNDER_INVESTIGATION",
+    "lat": 22.80136,
+    "lon": 86.15865,
+    "accused_ids": [
+      "SUSP-FB43CAB0"
+    ],
+    "vehicle_id": "VEH-C7282E84",
+    "node_type": "Incident",
+    "label": "FIR/2026/106 (MURDER)"
+  },
+  {
+    "id": "INC-107",
+    "fir_no": "FIR/2026/107",
+    "police_station": "Bankmore PS",
+    "district": "Dhanbad",
+    "state": "Jharkhand",
+    "ipc_sections": [
+      "302",
+      "120B",
+      "34"
+    ],
+    "date_time": "2026-01-25T08:00:00",
+    "severity": "HIGH",
+    "crime_type": "MURDER",
+    "description": "Armed murder reported at Bankmore PS. Accused Devendra Ahmed identified with vehicle JH-01-DJ-7565.",
+    "investigating_officer": "Inspector R. K. Choudhary",
+    "status": "UNDER_INVESTIGATION",
+    "lat": 25.62953,
+    "lon": 85.18981,
+    "accused_ids": [
+      "SUSP-D6BB3157"
+    ],
+    "vehicle_id": "VEH-C0B43676",
+    "node_type": "Incident",
+    "label": "FIR/2026/107 (MURDER)"
+  },
+  {
+    "id": "INC-108",
+    "fir_no": "FIR/2026/108",
+    "police_station": "Dhansar PS",
+    "district": "Dhanbad",
+    "state": "Jharkhand",
+    "ipc_sections": [
+      "307",
+      "326",
+      "147",
+      "148"
+    ],
+    "date_time": "2026-01-16T12:00:00",
+    "severity": "HIGH",
+    "crime_type": "MURDER",
+    "description": "Armed murder reported at Dhansar PS. Accused Bablu Chauhan identified with vehicle JH-10-QH-1637.",
+    "investigating_officer": "Inspector R. K. Choudhary",
+    "status": "UNDER_INVESTIGATION",
+    "lat": 25.59615,
+    "lon": 85.09542,
+    "accused_ids": [
+      "SUSP-E8336F96"
+    ],
+    "vehicle_id": "VEH-6B7467EC",
+    "node_type": "Incident",
+    "label": "FIR/2026/108 (MURDER)"
+  },
+  {
+    "id": "INC-109",
+    "fir_no": "FIR/2026/109",
+    "police_station": "Bankmore PS",
+    "district": "Dhanbad",
+    "state": "Jharkhand",
+    "ipc_sections": [
+      "364A",
+      "384",
+      "120B"
+    ],
+    "date_time": "2026-01-14T17:00:00",
+    "severity": "CRITICAL",
+    "crime_type": "KIDNAPPING",
+    "description": "Armed kidnapping reported at Bankmore PS. Accused Munna Sinha identified with vehicle JH-01-JF-7390.",
+    "investigating_officer": "Inspector R. K. Choudhary",
+    "status": "UNDER_INVESTIGATION",
+    "lat": 25.65583,
+    "lon": 85.08377,
+    "accused_ids": [
+      "SUSP-35390369"
+    ],
+    "vehicle_id": "VEH-839F70D1",
+    "node_type": "Incident",
+    "label": "FIR/2026/109 (KIDNAPPING)"
+  },
+  {
+    "id": "INC-110",
+    "fir_no": "FIR/2026/110",
+    "police_station": "Kotwali PS",
+    "district": "Patna",
+    "state": "Bihar",
+    "ipc_sections": [
+      "420",
+      "468",
+      "471",
+      "66D IT Act"
+    ],
+    "date_time": "2026-02-15T14:00:00",
+    "severity": "MEDIUM",
+    "crime_type": "CYBERCRIME",
+    "description": "Armed cybercrime reported at Kotwali PS. Accused Satish Verma identified with vehicle JH-05-LF-5011.",
+    "investigating_officer": "Inspector R. K. Choudhary",
+    "status": "UNDER_INVESTIGATION",
+    "lat": 26.11802,
+    "lon": 85.38664,
+    "accused_ids": [
+      "SUSP-C680B547"
+    ],
+    "vehicle_id": "VEH-B0335B86",
+    "node_type": "Incident",
+    "label": "FIR/2026/110 (CYBERCRIME)"
+  },
+  {
+    "id": "INC-111",
+    "fir_no": "FIR/2026/111",
+    "police_station": "Sakchi PS",
+    "district": "Jamshedpur",
+    "state": "Jharkhand",
+    "ipc_sections": [
+      "364A",
+      "384",
+      "120B"
+    ],
+    "date_time": "2026-01-30T04:00:00",
+    "severity": "CRITICAL",
+    "crime_type": "KIDNAPPING",
+    "description": "Armed kidnapping reported at Sakchi PS. Accused Neeraj Mahto identified with vehicle UP-65-CZ-3453.",
+    "investigating_officer": "Inspector R. K. Choudhary",
+    "status": "UNDER_INVESTIGATION",
+    "lat": 24.80409,
+    "lon": 85.03599,
+    "accused_ids": [
+      "SUSP-725399BC"
+    ],
+    "vehicle_id": "VEH-E1EA2E44",
+    "node_type": "Incident",
+    "label": "FIR/2026/111 (KIDNAPPING)"
+  },
+  {
+    "id": "INC-112",
+    "fir_no": "FIR/2026/112",
+    "police_station": "Cantonment PS",
+    "district": "Varanasi",
+    "state": "Uttar Pradesh",
+    "ipc_sections": [
+      "364A",
+      "384",
+      "120B"
+    ],
+    "date_time": "2026-03-06T23:00:00",
+    "severity": "CRITICAL",
+    "crime_type": "KIDNAPPING",
+    "description": "Armed kidnapping reported at Cantonment PS. Accused Pushpa Yadav identified with vehicle BR-01-TX-3838.",
+    "investigating_officer": "Inspector R. K. Choudhary",
+    "status": "UNDER_INVESTIGATION",
+    "lat": 25.29797,
+    "lon": 82.98569,
+    "accused_ids": [
+      "SUSP-D21477A8"
+    ],
+    "vehicle_id": "VEH-4111B04A",
+    "node_type": "Incident",
+    "label": "FIR/2026/112 (KIDNAPPING)"
+  },
+  {
+    "id": "INC-113",
+    "fir_no": "FIR/2026/113",
+    "police_station": "Saraidhela PS",
+    "district": "Dhanbad",
+    "state": "Jharkhand",
+    "ipc_sections": [
+      "302",
+      "120B",
+      "34"
+    ],
+    "date_time": "2026-01-13T13:00:00",
+    "severity": "HIGH",
+    "crime_type": "MURDER",
+    "description": "Armed murder reported at Saraidhela PS. Accused Mukesh Verma identified with vehicle JH-01-XG-4221.",
+    "investigating_officer": "Inspector R. K. Choudhary",
+    "status": "UNDER_INVESTIGATION",
+    "lat": 22.82227,
+    "lon": 86.1637,
+    "accused_ids": [
+      "SUSP-CFBC98C4"
+    ],
+    "vehicle_id": "VEH-F057437A",
+    "node_type": "Incident",
+    "label": "FIR/2026/113 (MURDER)"
+  },
+  {
+    "id": "INC-114",
+    "fir_no": "FIR/2026/114",
+    "police_station": "Dhurwa PS",
+    "district": "Ranchi",
+    "state": "Jharkhand",
+    "ipc_sections": [
+      "364A",
+      "384",
+      "120B"
+    ],
+    "date_time": "2026-01-25T00:00:00",
+    "severity": "CRITICAL",
+    "crime_type": "KIDNAPPING",
+    "description": "Armed kidnapping reported at Dhurwa PS. Accused Chhotu Shankar identified with vehicle DL-03-DQ-7873.",
+    "investigating_officer": "Inspector R. K. Choudhary",
+    "status": "UNDER_INVESTIGATION",
+    "lat": 26.80932,
+    "lon": 80.97151,
+    "accused_ids": [
+      "SUSP-CEA70BF9"
+    ],
+    "vehicle_id": "VEH-2C5C39D7",
+    "node_type": "Incident",
+    "label": "FIR/2026/114 (KIDNAPPING)"
+  },
+  {
+    "id": "INC-115",
+    "fir_no": "FIR/2026/115",
+    "police_station": "Sakchi PS",
+    "district": "Jamshedpur",
+    "state": "Jharkhand",
+    "ipc_sections": [
+      "302",
+      "120B",
+      "34"
+    ],
+    "date_time": "2026-02-16T05:30:00",
+    "severity": "HIGH",
+    "crime_type": "MURDER",
+    "description": "Armed murder reported at Sakchi PS. Accused Subhash Mahto identified with vehicle BR-02-TT-2739.",
+    "investigating_officer": "Inspector R. K. Choudhary",
+    "status": "UNDER_INVESTIGATION",
+    "lat": 26.16825,
+    "lon": 85.32123,
+    "accused_ids": [
+      "SUSP-F2BFD822"
+    ],
+    "vehicle_id": "VEH-2EBD00ED",
+    "node_type": "Incident",
+    "label": "FIR/2026/115 (MURDER)"
+  },
+  {
+    "id": "INC-116",
+    "fir_no": "FIR/2026/116",
+    "police_station": "Bankmore PS",
+    "district": "Dhanbad",
+    "state": "Jharkhand",
+    "ipc_sections": [
+      "302",
+      "120B",
+      "34"
+    ],
+    "date_time": "2026-02-04T21:00:00",
+    "severity": "HIGH",
+    "crime_type": "MURDER",
+    "description": "Armed murder reported at Bankmore PS. Accused Chandan Mishra identified with vehicle JH-05-KI-9927.",
+    "investigating_officer": "Inspector R. K. Choudhary",
+    "status": "UNDER_INVESTIGATION",
+    "lat": 25.61326,
+    "lon": 85.18177,
+    "accused_ids": [
+      "SUSP-5FF803D9"
+    ],
+    "vehicle_id": "VEH-BB0FE6D2",
+    "node_type": "Incident",
+    "label": "FIR/2026/116 (MURDER)"
+  },
+  {
+    "id": "INC-117",
+    "fir_no": "FIR/2026/117",
+    "police_station": "Bankmore PS",
+    "district": "Dhanbad",
+    "state": "Jharkhand",
+    "ipc_sections": [
+      "376",
+      "366A",
+      "370",
+      "34"
+    ],
+    "date_time": "2026-01-08T14:00:00",
+    "severity": "CRITICAL",
+    "crime_type": "WOMEN_SAFETY",
+    "description": "Armed women_safety reported at Bankmore PS. Accused Usha Chauhan identified with vehicle DL-03-KD-7466.",
+    "investigating_officer": "Inspector R. K. Choudhary",
+    "status": "UNDER_INVESTIGATION",
+    "lat": 24.47827,
+    "lon": 86.76001,
+    "accused_ids": [
+      "SUSP-6CD39656"
+    ],
+    "vehicle_id": "VEH-7498DB1F",
+    "node_type": "Incident",
+    "label": "FIR/2026/117 (WOMEN_SAFETY)"
+  },
+  {
+    "id": "INC-118",
+    "fir_no": "FIR/2026/118",
+    "police_station": "Kotwali PS",
+    "district": "Ranchi",
+    "state": "Jharkhand",
+    "ipc_sections": [
+      "20/22 NDPS Act",
+      "120B"
+    ],
+    "date_time": "2026-03-13T18:00:00",
+    "severity": "HIGH",
+    "crime_type": "NARCOTICS",
+    "description": "Armed narcotics reported at Kotwali PS. Accused Sunita Verma identified with vehicle DL-03-KS-8599.",
+    "investigating_officer": "Inspector R. K. Choudhary",
+    "status": "UNDER_INVESTIGATION",
+    "lat": 23.99482,
+    "lon": 85.35705,
+    "accused_ids": [
+      "SUSP-1328D560"
+    ],
+    "vehicle_id": "VEH-A3170325",
+    "node_type": "Incident",
+    "label": "FIR/2026/118 (NARCOTICS)"
+  },
+  {
+    "id": "INC-119",
+    "fir_no": "FIR/2026/119",
+    "police_station": "Dhansar PS",
+    "district": "Dhanbad",
+    "state": "Jharkhand",
+    "ipc_sections": [
+      "420",
+      "468",
+      "471",
+      "66D IT Act"
+    ],
+    "date_time": "2026-03-19T09:00:00",
+    "severity": "MEDIUM",
+    "crime_type": "CYBERCRIME",
+    "description": "Armed cybercrime reported at Dhansar PS. Accused Ramesh Sinha identified with vehicle JH-01-OV-3638.",
+    "investigating_officer": "Inspector R. K. Choudhary",
+    "status": "UNDER_INVESTIGATION",
+    "lat": 22.77236,
+    "lon": 86.25734,
+    "accused_ids": [
+      "SUSP-B9E21F9C"
+    ],
+    "vehicle_id": "VEH-B27CE975",
+    "node_type": "Incident",
+    "label": "FIR/2026/119 (CYBERCRIME)"
+  },
+  {
+    "id": "INC-120",
+    "fir_no": "FIR/2026/120",
+    "police_station": "Saraidhela PS",
+    "district": "Dhanbad",
+    "state": "Jharkhand",
+    "ipc_sections": [
+      "392",
+      "397",
+      "25/27 Arms Act"
+    ],
+    "date_time": "2026-02-03T14:00:00",
+    "severity": "HIGH",
+    "crime_type": "EXTORTION",
+    "description": "Armed extortion reported at Saraidhela PS. Accused Pushpa Sharma identified with vehicle JH-01-VJ-3788.",
+    "investigating_officer": "Inspector R. K. Choudhary",
+    "status": "UNDER_INVESTIGATION",
+    "lat": 26.80859,
+    "lon": 80.88946,
+    "accused_ids": [
+      "SUSP-AFC0B8C0"
+    ],
+    "vehicle_id": "VEH-73D02199",
+    "node_type": "Incident",
+    "label": "FIR/2026/120 (EXTORTION)"
+  },
+  {
+    "id": "INC-121",
+    "fir_no": "FIR/2026/121",
+    "police_station": "Bankmore PS",
+    "district": "Dhanbad",
+    "state": "Jharkhand",
+    "ipc_sections": [
+      "376",
+      "366A",
+      "370",
+      "34"
+    ],
+    "date_time": "2026-03-18T08:00:00",
+    "severity": "CRITICAL",
+    "crime_type": "WOMEN_SAFETY",
+    "description": "Armed women_safety reported at Bankmore PS. Accused Manoj Ansari identified with vehicle BR-02-YW-2218.",
+    "investigating_officer": "Inspector R. K. Choudhary",
+    "status": "UNDER_INVESTIGATION",
+    "lat": 25.34352,
+    "lon": 82.9806,
+    "accused_ids": [
+      "SUSP-6EC88144"
+    ],
+    "vehicle_id": "VEH-0FFBFB96",
+    "node_type": "Incident",
+    "label": "FIR/2026/121 (WOMEN_SAFETY)"
+  },
+  {
+    "id": "INC-122",
+    "fir_no": "FIR/2026/122",
+    "police_station": "Lalpur PS",
+    "district": "Ranchi",
+    "state": "Jharkhand",
+    "ipc_sections": [
+      "420",
+      "468",
+      "471",
+      "66D IT Act"
+    ],
+    "date_time": "2026-02-11T17:00:00",
+    "severity": "MEDIUM",
+    "crime_type": "CYBERCRIME",
+    "description": "Armed cybercrime reported at Lalpur PS. Accused Vijay Oram identified with vehicle JH-10-MC-7066.",
+    "investigating_officer": "Inspector R. K. Choudhary",
+    "status": "UNDER_INVESTIGATION",
+    "lat": 24.50304,
+    "lon": 86.65601,
+    "accused_ids": [
+      "SUSP-9F4C8ABE"
+    ],
+    "vehicle_id": "VEH-E1B4049B",
+    "node_type": "Incident",
+    "label": "FIR/2026/122 (CYBERCRIME)"
+  },
+  {
+    "id": "INC-123",
+    "fir_no": "FIR/2026/123",
+    "police_station": "Bankmore PS",
+    "district": "Dhanbad",
+    "state": "Jharkhand",
+    "ipc_sections": [
+      "364A",
+      "384",
+      "120B"
+    ],
+    "date_time": "2026-01-04T22:00:00",
+    "severity": "CRITICAL",
+    "crime_type": "KIDNAPPING",
+    "description": "Armed kidnapping reported at Bankmore PS. Accused Bittu Oram identified with vehicle JH-01-BA-1703.",
+    "investigating_officer": "Inspector R. K. Choudhary",
+    "status": "UNDER_INVESTIGATION",
+    "lat": 23.81785,
+    "lon": 86.46149,
+    "accused_ids": [
+      "SUSP-D6D3C6A1"
+    ],
+    "vehicle_id": "VEH-05C00261",
+    "node_type": "Incident",
+    "label": "FIR/2026/123 (KIDNAPPING)"
+  },
+  {
+    "id": "INC-124",
+    "fir_no": "FIR/2026/124",
+    "police_station": "Town PS",
+    "district": "Deoghar",
+    "state": "Jharkhand",
+    "ipc_sections": [
+      "364A",
+      "384",
+      "120B"
+    ],
+    "date_time": "2026-02-21T16:00:00",
+    "severity": "CRITICAL",
+    "crime_type": "KIDNAPPING",
+    "description": "Armed kidnapping reported at Town PS. Accused Pankaj Shankar identified with vehicle JH-01-YA-2773.",
+    "investigating_officer": "Inspector R. K. Choudhary",
+    "status": "UNDER_INVESTIGATION",
+    "lat": 23.96571,
+    "lon": 85.40419,
+    "accused_ids": [
+      "SUSP-472261CB"
+    ],
+    "vehicle_id": "VEH-66599A44",
+    "node_type": "Incident",
+    "label": "FIR/2026/124 (KIDNAPPING)"
+  },
+  {
+    "id": "INC-125",
+    "fir_no": "FIR/2026/125",
+    "police_station": "Dhansar PS",
+    "district": "Dhanbad",
+    "state": "Jharkhand",
+    "ipc_sections": [
+      "376",
+      "366A",
+      "370",
+      "34"
+    ],
+    "date_time": "2026-03-11T02:00:00",
+    "severity": "CRITICAL",
+    "crime_type": "WOMEN_SAFETY",
+    "description": "Armed women_safety reported at Dhansar PS. Accused Chandan Gope identified with vehicle BR-01-GH-1635.",
+    "investigating_officer": "Inspector R. K. Choudhary",
+    "status": "UNDER_INVESTIGATION",
+    "lat": 23.73736,
+    "lon": 86.47438,
+    "accused_ids": [
+      "SUSP-E829289F"
+    ],
+    "vehicle_id": "VEH-332D735B",
+    "node_type": "Incident",
+    "label": "FIR/2026/125 (WOMEN_SAFETY)"
+  }
+]

@@ -1,0 +1,5394 @@
+[
+  {
+    "source": "SUSP-DBA3397F",
+    "target": "SUSP-E0F10031",
+    "edge_type": "COMMANDS",
+    "role": "LEADER",
+    "confidence": 0.95,
+    "label": "COMMANDS"
+  },
+  {
+    "source": "SUSP-DBA3397F",
+    "target": "SUSP-0866B95A",
+    "edge_type": "COMMANDS",
+    "role": "LEADER",
+    "confidence": 0.95,
+    "label": "COMMANDS"
+  },
+  {
+    "source": "SUSP-DBA3397F",
+    "target": "SUSP-E548F04A",
+    "edge_type": "COMMANDS",
+    "role": "LEADER",
+    "confidence": 0.95,
+    "label": "COMMANDS"
+  },
+  {
+    "source": "SUSP-E548F04A",
+    "target": "SUSP-1B8D7AC4",
+    "edge_type": "ASSOCIATE_OF",
+    "relationship_type": "CRIMINAL",
+    "confidence": 0.85,
+    "label": "ASSOCIATE_OF"
+  },
+  {
+    "source": "SUSP-E548F04A",
+    "target": "SUSP-0385B63E",
+    "edge_type": "ASSOCIATE_OF",
+    "relationship_type": "CRIMINAL",
+    "confidence": 0.85,
+    "label": "ASSOCIATE_OF"
+  },
+  {
+    "source": "SUSP-E548F04A",
+    "target": "SUSP-FB43CAB0",
+    "edge_type": "ASSOCIATE_OF",
+    "relationship_type": "CRIMINAL",
+    "confidence": 0.85,
+    "label": "ASSOCIATE_OF"
+  },
+  {
+    "source": "SUSP-0866B95A",
+    "target": "SUSP-D6BB3157",
+    "edge_type": "ASSOCIATE_OF",
+    "relationship_type": "CRIMINAL",
+    "confidence": 0.85,
+    "label": "ASSOCIATE_OF"
+  },
+  {
+    "source": "SUSP-E548F04A",
+    "target": "SUSP-E8336F96",
+    "edge_type": "ASSOCIATE_OF",
+    "relationship_type": "CRIMINAL",
+    "confidence": 0.85,
+    "label": "ASSOCIATE_OF"
+  },
+  {
+    "source": "SUSP-E548F04A",
+    "target": "SUSP-35390369",
+    "edge_type": "ASSOCIATE_OF",
+    "relationship_type": "CRIMINAL",
+    "confidence": 0.85,
+    "label": "ASSOCIATE_OF"
+  },
+  {
+    "source": "SUSP-0866B95A",
+    "target": "SUSP-C680B547",
+    "edge_type": "ASSOCIATE_OF",
+    "relationship_type": "CRIMINAL",
+    "confidence": 0.85,
+    "label": "ASSOCIATE_OF"
+  },
+  {
+    "source": "SUSP-0866B95A",
+    "target": "SUSP-725399BC",
+    "edge_type": "ASSOCIATE_OF",
+    "relationship_type": "CRIMINAL",
+    "confidence": 0.85,
+    "label": "ASSOCIATE_OF"
+  },
+  {
+    "source": "SUSP-E548F04A",
+    "target": "SUSP-D21477A8",
+    "edge_type": "ASSOCIATE_OF",
+    "relationship_type": "CRIMINAL",
+    "confidence": 0.85,
+    "label": "ASSOCIATE_OF"
+  },
+  {
+    "source": "SUSP-0866B95A",
+    "target": "SUSP-CFBC98C4",
+    "edge_type": "ASSOCIATE_OF",
+    "relationship_type": "CRIMINAL",
+    "confidence": 0.85,
+    "label": "ASSOCIATE_OF"
+  },
+  {
+    "source": "SUSP-0866B95A",
+    "target": "SUSP-CEA70BF9",
+    "edge_type": "ASSOCIATE_OF",
+    "relationship_type": "CRIMINAL",
+    "confidence": 0.85,
+    "label": "ASSOCIATE_OF"
+  },
+  {
+    "source": "SUSP-E0F10031",
+    "target": "SUSP-F2BFD822",
+    "edge_type": "ASSOCIATE_OF",
+    "relationship_type": "CRIMINAL",
+    "confidence": 0.85,
+    "label": "ASSOCIATE_OF"
+  },
+  {
+    "source": "SUSP-E0F10031",
+    "target": "SUSP-5FF803D9",
+    "edge_type": "ASSOCIATE_OF",
+    "relationship_type": "CRIMINAL",
+    "confidence": 0.85,
+    "label": "ASSOCIATE_OF"
+  },
+  {
+    "source": "SUSP-E548F04A",
+    "target": "SUSP-6CD39656",
+    "edge_type": "ASSOCIATE_OF",
+    "relationship_type": "CRIMINAL",
+    "confidence": 0.85,
+    "label": "ASSOCIATE_OF"
+  },
+  {
+    "source": "SUSP-0866B95A",
+    "target": "SUSP-1328D560",
+    "edge_type": "ASSOCIATE_OF",
+    "relationship_type": "CRIMINAL",
+    "confidence": 0.85,
+    "label": "ASSOCIATE_OF"
+  },
+  {
+    "source": "SUSP-E548F04A",
+    "target": "SUSP-B9E21F9C",
+    "edge_type": "ASSOCIATE_OF",
+    "relationship_type": "CRIMINAL",
+    "confidence": 0.85,
+    "label": "ASSOCIATE_OF"
+  },
+  {
+    "source": "SUSP-0866B95A",
+    "target": "SUSP-AFC0B8C0",
+    "edge_type": "ASSOCIATE_OF",
+    "relationship_type": "CRIMINAL",
+    "confidence": 0.85,
+    "label": "ASSOCIATE_OF"
+  },
+  {
+    "source": "SUSP-E548F04A",
+    "target": "SUSP-6EC88144",
+    "edge_type": "ASSOCIATE_OF",
+    "relationship_type": "CRIMINAL",
+    "confidence": 0.85,
+    "label": "ASSOCIATE_OF"
+  },
+  {
+    "source": "SUSP-E0F10031",
+    "target": "SUSP-9F4C8ABE",
+    "edge_type": "ASSOCIATE_OF",
+    "relationship_type": "CRIMINAL",
+    "confidence": 0.85,
+    "label": "ASSOCIATE_OF"
+  },
+  {
+    "source": "SUSP-E0F10031",
+    "target": "SUSP-D6D3C6A1",
+    "edge_type": "ASSOCIATE_OF",
+    "relationship_type": "CRIMINAL",
+    "confidence": 0.85,
+    "label": "ASSOCIATE_OF"
+  },
+  {
+    "source": "SUSP-E548F04A",
+    "target": "SUSP-472261CB",
+    "edge_type": "ASSOCIATE_OF",
+    "relationship_type": "CRIMINAL",
+    "confidence": 0.85,
+    "label": "ASSOCIATE_OF"
+  },
+  {
+    "source": "SUSP-F3D10FD5",
+    "target": "SUSP-7F139E7B",
+    "edge_type": "ASSOCIATE_OF",
+    "relationship_type": "INTER_STATE_SUPPLY",
+    "confidence": 0.88,
+    "label": "INTER_STATE_LINK"
+  },
+  {
+    "source": "SUSP-E3CCD1D1",
+    "target": "SUSP-F2BFD822",
+    "edge_type": "ASSOCIATE_OF",
+    "relationship_type": "INTER_STATE_SUPPLY",
+    "confidence": 0.88,
+    "label": "INTER_STATE_LINK"
+  },
+  {
+    "source": "SUSP-30F64EAD",
+    "target": "SUSP-7F139E7B",
+    "edge_type": "ASSOCIATE_OF",
+    "relationship_type": "INTER_STATE_SUPPLY",
+    "confidence": 0.88,
+    "label": "INTER_STATE_LINK"
+  },
+  {
+    "source": "SUSP-AED0A0F2",
+    "target": "SUSP-CFBC98C4",
+    "edge_type": "ASSOCIATE_OF",
+    "relationship_type": "INTER_STATE_SUPPLY",
+    "confidence": 0.88,
+    "label": "INTER_STATE_LINK"
+  },
+  {
+    "source": "SUSP-D6BB3157",
+    "target": "SUSP-6F0E0A9B",
+    "edge_type": "ASSOCIATE_OF",
+    "relationship_type": "INTER_STATE_SUPPLY",
+    "confidence": 0.88,
+    "label": "INTER_STATE_LINK"
+  },
+  {
+    "source": "SUSP-CFBF076F",
+    "target": "SUSP-D6D3C6A1",
+    "edge_type": "ASSOCIATE_OF",
+    "relationship_type": "INTER_STATE_SUPPLY",
+    "confidence": 0.88,
+    "label": "INTER_STATE_LINK"
+  },
+  {
+    "source": "SUSP-7FD424E4",
+    "target": "SUSP-1E25644F",
+    "edge_type": "ASSOCIATE_OF",
+    "relationship_type": "INTER_STATE_SUPPLY",
+    "confidence": 0.88,
+    "label": "INTER_STATE_LINK"
+  },
+  {
+    "source": "SUSP-E548F04A",
+    "target": "SUSP-D6D3C6A1",
+    "edge_type": "ASSOCIATE_OF",
+    "relationship_type": "INTER_STATE_SUPPLY",
+    "confidence": 0.88,
+    "label": "INTER_STATE_LINK"
+  },
+  {
+    "source": "SUSP-0866B95A",
+    "target": "SUSP-C22295AA",
+    "edge_type": "ASSOCIATE_OF",
+    "relationship_type": "INTER_STATE_SUPPLY",
+    "confidence": 0.88,
+    "label": "INTER_STATE_LINK"
+  },
+  {
+    "source": "SUSP-669A9F27",
+    "target": "SUSP-0B0AF6C9",
+    "edge_type": "ASSOCIATE_OF",
+    "relationship_type": "INTER_STATE_SUPPLY",
+    "confidence": 0.88,
+    "label": "INTER_STATE_LINK"
+  },
+  {
+    "source": "SUSP-CE9FAB90",
+    "target": "SUSP-B9E21F9C",
+    "edge_type": "ASSOCIATE_OF",
+    "relationship_type": "INTER_STATE_SUPPLY",
+    "confidence": 0.88,
+    "label": "INTER_STATE_LINK"
+  },
+  {
+    "source": "SUSP-F3D10FD5",
+    "target": "SUSP-5FF803D9",
+    "edge_type": "ASSOCIATE_OF",
+    "relationship_type": "INTER_STATE_SUPPLY",
+    "confidence": 0.88,
+    "label": "INTER_STATE_LINK"
+  },
+  {
+    "source": "SUSP-725399BC",
+    "target": "SUSP-EE57DC9E",
+    "edge_type": "ASSOCIATE_OF",
+    "relationship_type": "CROSS_BORDER_SMUGGLING",
+    "confidence": 0.91,
+    "label": "CROSS_BORDER_LINK"
+  },
+  {
+    "source": "SUSP-6163EB12",
+    "target": "SUSP-9F4C8ABE",
+    "edge_type": "ASSOCIATE_OF",
+    "relationship_type": "CROSS_BORDER_SMUGGLING",
+    "confidence": 0.91,
+    "label": "CROSS_BORDER_LINK"
+  },
+  {
+    "source": "SUSP-1B8D7AC4",
+    "target": "SUSP-D0AC5A15",
+    "edge_type": "ASSOCIATE_OF",
+    "relationship_type": "CROSS_BORDER_SMUGGLING",
+    "confidence": 0.91,
+    "label": "CROSS_BORDER_LINK"
+  },
+  {
+    "source": "SUSP-5FF803D9",
+    "target": "SUSP-CA1E5165",
+    "edge_type": "ASSOCIATE_OF",
+    "relationship_type": "CROSS_BORDER_SMUGGLING",
+    "confidence": 0.91,
+    "label": "CROSS_BORDER_LINK"
+  },
+  {
+    "source": "SUSP-0B0AF6C9",
+    "target": "SUSP-F4F93BE9",
+    "edge_type": "ASSOCIATE_OF",
+    "relationship_type": "CROSS_BORDER_SMUGGLING",
+    "confidence": 0.91,
+    "label": "CROSS_BORDER_LINK"
+  },
+  {
+    "source": "SUSP-472261CB",
+    "target": "SUSP-FB43CAB0",
+    "edge_type": "ASSOCIATE_OF",
+    "relationship_type": "CROSS_BORDER_SMUGGLING",
+    "confidence": 0.91,
+    "label": "CROSS_BORDER_LINK"
+  },
+  {
+    "source": "SUSP-6F0E0A9B",
+    "target": "SUSP-9F4C8ABE",
+    "edge_type": "ASSOCIATE_OF",
+    "relationship_type": "CROSS_BORDER_SMUGGLING",
+    "confidence": 0.91,
+    "label": "CROSS_BORDER_LINK"
+  },
+  {
+    "source": "SUSP-8DA00F6F",
+    "target": "SUSP-D0AC5A15",
+    "edge_type": "ASSOCIATE_OF",
+    "relationship_type": "CROSS_BORDER_SMUGGLING",
+    "confidence": 0.91,
+    "label": "CROSS_BORDER_LINK"
+  },
+  {
+    "source": "SUSP-DBA3397F",
+    "target": "ORG-EXTORTION-DHN",
+    "edge_type": "MEMBER_OF",
+    "role": "SUPREME_HEAD",
+    "confidence": 0.9,
+    "label": "MEMBER_OF"
+  },
+  {
+    "source": "SUSP-E0F10031",
+    "target": "ORG-NARCOTICS-GAYA",
+    "edge_type": "MEMBER_OF",
+    "role": "OPERATIVE",
+    "confidence": 0.9,
+    "label": "MEMBER_OF"
+  },
+  {
+    "source": "SUSP-0866B95A",
+    "target": "ORG-CYBER-JAMTARA",
+    "edge_type": "MEMBER_OF",
+    "role": "OPERATIVE",
+    "confidence": 0.9,
+    "label": "MEMBER_OF"
+  },
+  {
+    "source": "SUSP-E548F04A",
+    "target": "ORG-TRAFFICKING-RANCHI",
+    "edge_type": "MEMBER_OF",
+    "role": "OPERATIVE",
+    "confidence": 0.9,
+    "label": "MEMBER_OF"
+  },
+  {
+    "source": "SUSP-1B8D7AC4",
+    "target": "ORG-ARMS-MUNGER",
+    "edge_type": "MEMBER_OF",
+    "role": "OPERATIVE",
+    "confidence": 0.9,
+    "label": "MEMBER_OF"
+  },
+  {
+    "source": "SUSP-0385B63E",
+    "target": "ORG-EXTORTION-DHN",
+    "edge_type": "MEMBER_OF",
+    "role": "OPERATIVE",
+    "confidence": 0.9,
+    "label": "MEMBER_OF"
+  },
+  {
+    "source": "SUSP-FB43CAB0",
+    "target": "ORG-NARCOTICS-GAYA",
+    "edge_type": "MEMBER_OF",
+    "role": "OPERATIVE",
+    "confidence": 0.9,
+    "label": "MEMBER_OF"
+  },
+  {
+    "source": "SUSP-D6BB3157",
+    "target": "ORG-CYBER-JAMTARA",
+    "edge_type": "MEMBER_OF",
+    "role": "OPERATIVE",
+    "confidence": 0.9,
+    "label": "MEMBER_OF"
+  },
+  {
+    "source": "SUSP-E8336F96",
+    "target": "ORG-TRAFFICKING-RANCHI",
+    "edge_type": "MEMBER_OF",
+    "role": "OPERATIVE",
+    "confidence": 0.9,
+    "label": "MEMBER_OF"
+  },
+  {
+    "source": "SUSP-35390369",
+    "target": "ORG-ARMS-MUNGER",
+    "edge_type": "MEMBER_OF",
+    "role": "OPERATIVE",
+    "confidence": 0.9,
+    "label": "MEMBER_OF"
+  },
+  {
+    "source": "SUSP-C680B547",
+    "target": "ORG-EXTORTION-DHN",
+    "edge_type": "MEMBER_OF",
+    "role": "OPERATIVE",
+    "confidence": 0.9,
+    "label": "MEMBER_OF"
+  },
+  {
+    "source": "SUSP-725399BC",
+    "target": "ORG-NARCOTICS-GAYA",
+    "edge_type": "MEMBER_OF",
+    "role": "OPERATIVE",
+    "confidence": 0.9,
+    "label": "MEMBER_OF"
+  },
+  {
+    "source": "SUSP-D21477A8",
+    "target": "ORG-CYBER-JAMTARA",
+    "edge_type": "MEMBER_OF",
+    "role": "OPERATIVE",
+    "confidence": 0.9,
+    "label": "MEMBER_OF"
+  },
+  {
+    "source": "SUSP-CFBC98C4",
+    "target": "ORG-TRAFFICKING-RANCHI",
+    "edge_type": "MEMBER_OF",
+    "role": "OPERATIVE",
+    "confidence": 0.9,
+    "label": "MEMBER_OF"
+  },
+  {
+    "source": "SUSP-CEA70BF9",
+    "target": "ORG-ARMS-MUNGER",
+    "edge_type": "MEMBER_OF",
+    "role": "OPERATIVE",
+    "confidence": 0.9,
+    "label": "MEMBER_OF"
+  },
+  {
+    "source": "SUSP-F2BFD822",
+    "target": "ORG-EXTORTION-DHN",
+    "edge_type": "MEMBER_OF",
+    "role": "OPERATIVE",
+    "confidence": 0.9,
+    "label": "MEMBER_OF"
+  },
+  {
+    "source": "SUSP-5FF803D9",
+    "target": "ORG-NARCOTICS-GAYA",
+    "edge_type": "MEMBER_OF",
+    "role": "OPERATIVE",
+    "confidence": 0.9,
+    "label": "MEMBER_OF"
+  },
+  {
+    "source": "SUSP-6CD39656",
+    "target": "ORG-CYBER-JAMTARA",
+    "edge_type": "MEMBER_OF",
+    "role": "OPERATIVE",
+    "confidence": 0.9,
+    "label": "MEMBER_OF"
+  },
+  {
+    "source": "SUSP-1328D560",
+    "target": "ORG-TRAFFICKING-RANCHI",
+    "edge_type": "MEMBER_OF",
+    "role": "OPERATIVE",
+    "confidence": 0.9,
+    "label": "MEMBER_OF"
+  },
+  {
+    "source": "SUSP-B9E21F9C",
+    "target": "ORG-ARMS-MUNGER",
+    "edge_type": "MEMBER_OF",
+    "role": "OPERATIVE",
+    "confidence": 0.9,
+    "label": "MEMBER_OF"
+  },
+  {
+    "source": "SUSP-AFC0B8C0",
+    "target": "ORG-EXTORTION-DHN",
+    "edge_type": "MEMBER_OF",
+    "role": "OPERATIVE",
+    "confidence": 0.9,
+    "label": "MEMBER_OF"
+  },
+  {
+    "source": "SUSP-6EC88144",
+    "target": "ORG-NARCOTICS-GAYA",
+    "edge_type": "MEMBER_OF",
+    "role": "OPERATIVE",
+    "confidence": 0.9,
+    "label": "MEMBER_OF"
+  },
+  {
+    "source": "SUSP-9F4C8ABE",
+    "target": "ORG-CYBER-JAMTARA",
+    "edge_type": "MEMBER_OF",
+    "role": "OPERATIVE",
+    "confidence": 0.9,
+    "label": "MEMBER_OF"
+  },
+  {
+    "source": "SUSP-D6D3C6A1",
+    "target": "ORG-TRAFFICKING-RANCHI",
+    "edge_type": "MEMBER_OF",
+    "role": "OPERATIVE",
+    "confidence": 0.9,
+    "label": "MEMBER_OF"
+  },
+  {
+    "source": "SUSP-472261CB",
+    "target": "ORG-ARMS-MUNGER",
+    "edge_type": "MEMBER_OF",
+    "role": "OPERATIVE",
+    "confidence": 0.9,
+    "label": "MEMBER_OF"
+  },
+  {
+    "source": "SUSP-E829289F",
+    "target": "ORG-EXTORTION-DHN",
+    "edge_type": "MEMBER_OF",
+    "role": "OPERATIVE",
+    "confidence": 0.9,
+    "label": "MEMBER_OF"
+  },
+  {
+    "source": "SUSP-30F64EAD",
+    "target": "ORG-NARCOTICS-GAYA",
+    "edge_type": "MEMBER_OF",
+    "role": "OPERATIVE",
+    "confidence": 0.9,
+    "label": "MEMBER_OF"
+  },
+  {
+    "source": "SUSP-7FD424E4",
+    "target": "ORG-CYBER-JAMTARA",
+    "edge_type": "MEMBER_OF",
+    "role": "OPERATIVE",
+    "confidence": 0.9,
+    "label": "MEMBER_OF"
+  },
+  {
+    "source": "SUSP-A781A559",
+    "target": "ORG-TRAFFICKING-RANCHI",
+    "edge_type": "MEMBER_OF",
+    "role": "OPERATIVE",
+    "confidence": 0.9,
+    "label": "MEMBER_OF"
+  },
+  {
+    "source": "SUSP-CE9FAB90",
+    "target": "ORG-ARMS-MUNGER",
+    "edge_type": "MEMBER_OF",
+    "role": "OPERATIVE",
+    "confidence": 0.9,
+    "label": "MEMBER_OF"
+  },
+  {
+    "source": "SUSP-0B0AF6C9",
+    "target": "ORG-EXTORTION-DHN",
+    "edge_type": "MEMBER_OF",
+    "role": "OPERATIVE",
+    "confidence": 0.9,
+    "label": "MEMBER_OF"
+  },
+  {
+    "source": "SUSP-AED0A0F2",
+    "target": "ORG-NARCOTICS-GAYA",
+    "edge_type": "MEMBER_OF",
+    "role": "OPERATIVE",
+    "confidence": 0.9,
+    "label": "MEMBER_OF"
+  },
+  {
+    "source": "SUSP-8FA52007",
+    "target": "ORG-CYBER-JAMTARA",
+    "edge_type": "MEMBER_OF",
+    "role": "OPERATIVE",
+    "confidence": 0.9,
+    "label": "MEMBER_OF"
+  },
+  {
+    "source": "SUSP-1E25644F",
+    "target": "ORG-TRAFFICKING-RANCHI",
+    "edge_type": "MEMBER_OF",
+    "role": "OPERATIVE",
+    "confidence": 0.9,
+    "label": "MEMBER_OF"
+  },
+  {
+    "source": "SUSP-B3E26D33",
+    "target": "ORG-ARMS-MUNGER",
+    "edge_type": "MEMBER_OF",
+    "role": "OPERATIVE",
+    "confidence": 0.9,
+    "label": "MEMBER_OF"
+  },
+  {
+    "source": "SUSP-1F5F2B50",
+    "target": "ORG-EXTORTION-DHN",
+    "edge_type": "MEMBER_OF",
+    "role": "OPERATIVE",
+    "confidence": 0.9,
+    "label": "MEMBER_OF"
+  },
+  {
+    "source": "SUSP-D92C2C45",
+    "target": "ORG-NARCOTICS-GAYA",
+    "edge_type": "MEMBER_OF",
+    "role": "OPERATIVE",
+    "confidence": 0.9,
+    "label": "MEMBER_OF"
+  },
+  {
+    "source": "SUSP-F4F93BE9",
+    "target": "ORG-CYBER-JAMTARA",
+    "edge_type": "MEMBER_OF",
+    "role": "OPERATIVE",
+    "confidence": 0.9,
+    "label": "MEMBER_OF"
+  },
+  {
+    "source": "SUSP-066960EA",
+    "target": "ORG-TRAFFICKING-RANCHI",
+    "edge_type": "MEMBER_OF",
+    "role": "OPERATIVE",
+    "confidence": 0.9,
+    "label": "MEMBER_OF"
+  },
+  {
+    "source": "SUSP-9FE167FA",
+    "target": "ORG-ARMS-MUNGER",
+    "edge_type": "MEMBER_OF",
+    "role": "OPERATIVE",
+    "confidence": 0.9,
+    "label": "MEMBER_OF"
+  },
+  {
+    "source": "SUSP-6163EB12",
+    "target": "ORG-EXTORTION-DHN",
+    "edge_type": "MEMBER_OF",
+    "role": "OPERATIVE",
+    "confidence": 0.9,
+    "label": "MEMBER_OF"
+  },
+  {
+    "source": "SUSP-EE57DC9E",
+    "target": "ORG-NARCOTICS-GAYA",
+    "edge_type": "MEMBER_OF",
+    "role": "OPERATIVE",
+    "confidence": 0.9,
+    "label": "MEMBER_OF"
+  },
+  {
+    "source": "SUSP-53588551",
+    "target": "ORG-CYBER-JAMTARA",
+    "edge_type": "MEMBER_OF",
+    "role": "OPERATIVE",
+    "confidence": 0.9,
+    "label": "MEMBER_OF"
+  },
+  {
+    "source": "SUSP-B4313DD9",
+    "target": "ORG-TRAFFICKING-RANCHI",
+    "edge_type": "MEMBER_OF",
+    "role": "OPERATIVE",
+    "confidence": 0.9,
+    "label": "MEMBER_OF"
+  },
+  {
+    "source": "SUSP-C22295AA",
+    "target": "ORG-ARMS-MUNGER",
+    "edge_type": "MEMBER_OF",
+    "role": "OPERATIVE",
+    "confidence": 0.9,
+    "label": "MEMBER_OF"
+  },
+  {
+    "source": "SUSP-9F48E9E0",
+    "target": "ORG-EXTORTION-DHN",
+    "edge_type": "MEMBER_OF",
+    "role": "OPERATIVE",
+    "confidence": 0.9,
+    "label": "MEMBER_OF"
+  },
+  {
+    "source": "SUSP-E7A2E615",
+    "target": "ORG-NARCOTICS-GAYA",
+    "edge_type": "MEMBER_OF",
+    "role": "OPERATIVE",
+    "confidence": 0.9,
+    "label": "MEMBER_OF"
+  },
+  {
+    "source": "SUSP-BFB5AAEA",
+    "target": "ORG-CYBER-JAMTARA",
+    "edge_type": "MEMBER_OF",
+    "role": "OPERATIVE",
+    "confidence": 0.9,
+    "label": "MEMBER_OF"
+  },
+  {
+    "source": "SUSP-B25DBA3A",
+    "target": "ORG-TRAFFICKING-RANCHI",
+    "edge_type": "MEMBER_OF",
+    "role": "OPERATIVE",
+    "confidence": 0.9,
+    "label": "MEMBER_OF"
+  },
+  {
+    "source": "SUSP-CA188809",
+    "target": "ORG-ARMS-MUNGER",
+    "edge_type": "MEMBER_OF",
+    "role": "OPERATIVE",
+    "confidence": 0.9,
+    "label": "MEMBER_OF"
+  },
+  {
+    "source": "SUSP-D0866CDD",
+    "target": "ORG-EXTORTION-DHN",
+    "edge_type": "MEMBER_OF",
+    "role": "OPERATIVE",
+    "confidence": 0.9,
+    "label": "MEMBER_OF"
+  },
+  {
+    "source": "SUSP-3604A769",
+    "target": "ORG-NARCOTICS-GAYA",
+    "edge_type": "MEMBER_OF",
+    "role": "OPERATIVE",
+    "confidence": 0.9,
+    "label": "MEMBER_OF"
+  },
+  {
+    "source": "SUSP-1D1292D4",
+    "target": "ORG-CYBER-JAMTARA",
+    "edge_type": "MEMBER_OF",
+    "role": "OPERATIVE",
+    "confidence": 0.9,
+    "label": "MEMBER_OF"
+  },
+  {
+    "source": "SUSP-D2167801",
+    "target": "ORG-TRAFFICKING-RANCHI",
+    "edge_type": "MEMBER_OF",
+    "role": "OPERATIVE",
+    "confidence": 0.9,
+    "label": "MEMBER_OF"
+  },
+  {
+    "source": "SUSP-E3CCD1D1",
+    "target": "ORG-ARMS-MUNGER",
+    "edge_type": "MEMBER_OF",
+    "role": "OPERATIVE",
+    "confidence": 0.9,
+    "label": "MEMBER_OF"
+  },
+  {
+    "source": "SUSP-A8234267",
+    "target": "ORG-EXTORTION-DHN",
+    "edge_type": "MEMBER_OF",
+    "role": "OPERATIVE",
+    "confidence": 0.9,
+    "label": "MEMBER_OF"
+  },
+  {
+    "source": "SUSP-3C321EC7",
+    "target": "ORG-NARCOTICS-GAYA",
+    "edge_type": "MEMBER_OF",
+    "role": "OPERATIVE",
+    "confidence": 0.9,
+    "label": "MEMBER_OF"
+  },
+  {
+    "source": "SUSP-377150D0",
+    "target": "ORG-CYBER-JAMTARA",
+    "edge_type": "MEMBER_OF",
+    "role": "OPERATIVE",
+    "confidence": 0.9,
+    "label": "MEMBER_OF"
+  },
+  {
+    "source": "SUSP-8B943652",
+    "target": "ORG-TRAFFICKING-RANCHI",
+    "edge_type": "MEMBER_OF",
+    "role": "OPERATIVE",
+    "confidence": 0.9,
+    "label": "MEMBER_OF"
+  },
+  {
+    "source": "SUSP-5C191B04",
+    "target": "ORG-ARMS-MUNGER",
+    "edge_type": "MEMBER_OF",
+    "role": "OPERATIVE",
+    "confidence": 0.9,
+    "label": "MEMBER_OF"
+  },
+  {
+    "source": "SUSP-D19CCB9C",
+    "target": "ORG-EXTORTION-DHN",
+    "edge_type": "MEMBER_OF",
+    "role": "OPERATIVE",
+    "confidence": 0.9,
+    "label": "MEMBER_OF"
+  },
+  {
+    "source": "SUSP-4B66AAA3",
+    "target": "ORG-NARCOTICS-GAYA",
+    "edge_type": "MEMBER_OF",
+    "role": "OPERATIVE",
+    "confidence": 0.9,
+    "label": "MEMBER_OF"
+  },
+  {
+    "source": "SUSP-9B30CDE7",
+    "target": "ORG-CYBER-JAMTARA",
+    "edge_type": "MEMBER_OF",
+    "role": "OPERATIVE",
+    "confidence": 0.9,
+    "label": "MEMBER_OF"
+  },
+  {
+    "source": "SUSP-590FD9D7",
+    "target": "ORG-TRAFFICKING-RANCHI",
+    "edge_type": "MEMBER_OF",
+    "role": "OPERATIVE",
+    "confidence": 0.9,
+    "label": "MEMBER_OF"
+  },
+  {
+    "source": "SUSP-6F0E0A9B",
+    "target": "ORG-ARMS-MUNGER",
+    "edge_type": "MEMBER_OF",
+    "role": "OPERATIVE",
+    "confidence": 0.9,
+    "label": "MEMBER_OF"
+  },
+  {
+    "source": "SUSP-BCE4EA56",
+    "target": "ORG-EXTORTION-DHN",
+    "edge_type": "MEMBER_OF",
+    "role": "OPERATIVE",
+    "confidence": 0.9,
+    "label": "MEMBER_OF"
+  },
+  {
+    "source": "SUSP-557278C8",
+    "target": "ORG-NARCOTICS-GAYA",
+    "edge_type": "MEMBER_OF",
+    "role": "OPERATIVE",
+    "confidence": 0.9,
+    "label": "MEMBER_OF"
+  },
+  {
+    "source": "SUSP-AB7395C9",
+    "target": "ORG-CYBER-JAMTARA",
+    "edge_type": "MEMBER_OF",
+    "role": "OPERATIVE",
+    "confidence": 0.9,
+    "label": "MEMBER_OF"
+  },
+  {
+    "source": "SUSP-7F139E7B",
+    "target": "ORG-TRAFFICKING-RANCHI",
+    "edge_type": "MEMBER_OF",
+    "role": "OPERATIVE",
+    "confidence": 0.9,
+    "label": "MEMBER_OF"
+  },
+  {
+    "source": "SUSP-F3D10FD5",
+    "target": "ORG-ARMS-MUNGER",
+    "edge_type": "MEMBER_OF",
+    "role": "OPERATIVE",
+    "confidence": 0.9,
+    "label": "MEMBER_OF"
+  },
+  {
+    "source": "SUSP-669A9F27",
+    "target": "ORG-EXTORTION-DHN",
+    "edge_type": "MEMBER_OF",
+    "role": "OPERATIVE",
+    "confidence": 0.9,
+    "label": "MEMBER_OF"
+  },
+  {
+    "source": "SUSP-8DA00F6F",
+    "target": "ORG-NARCOTICS-GAYA",
+    "edge_type": "MEMBER_OF",
+    "role": "OPERATIVE",
+    "confidence": 0.9,
+    "label": "MEMBER_OF"
+  },
+  {
+    "source": "SUSP-5ACD5686",
+    "target": "ORG-CYBER-JAMTARA",
+    "edge_type": "MEMBER_OF",
+    "role": "OPERATIVE",
+    "confidence": 0.9,
+    "label": "MEMBER_OF"
+  },
+  {
+    "source": "SUSP-CA1E5165",
+    "target": "ORG-TRAFFICKING-RANCHI",
+    "edge_type": "MEMBER_OF",
+    "role": "OPERATIVE",
+    "confidence": 0.9,
+    "label": "MEMBER_OF"
+  },
+  {
+    "source": "SUSP-CFBF076F",
+    "target": "ORG-ARMS-MUNGER",
+    "edge_type": "MEMBER_OF",
+    "role": "OPERATIVE",
+    "confidence": 0.9,
+    "label": "MEMBER_OF"
+  },
+  {
+    "source": "SUSP-2D2F587A",
+    "target": "ORG-EXTORTION-DHN",
+    "edge_type": "MEMBER_OF",
+    "role": "OPERATIVE",
+    "confidence": 0.9,
+    "label": "MEMBER_OF"
+  },
+  {
+    "source": "SUSP-2AED6B16",
+    "target": "ORG-NARCOTICS-GAYA",
+    "edge_type": "MEMBER_OF",
+    "role": "OPERATIVE",
+    "confidence": 0.9,
+    "label": "MEMBER_OF"
+  },
+  {
+    "source": "SUSP-E791A52E",
+    "target": "ORG-CYBER-JAMTARA",
+    "edge_type": "MEMBER_OF",
+    "role": "OPERATIVE",
+    "confidence": 0.9,
+    "label": "MEMBER_OF"
+  },
+  {
+    "source": "SUSP-49C1D7E6",
+    "target": "ORG-TRAFFICKING-RANCHI",
+    "edge_type": "MEMBER_OF",
+    "role": "OPERATIVE",
+    "confidence": 0.9,
+    "label": "MEMBER_OF"
+  },
+  {
+    "source": "SUSP-D0AC5A15",
+    "target": "ORG-ARMS-MUNGER",
+    "edge_type": "MEMBER_OF",
+    "role": "OPERATIVE",
+    "confidence": 0.9,
+    "label": "MEMBER_OF"
+  },
+  {
+    "source": "SUSP-E0F10031",
+    "target": "INC-101",
+    "edge_type": "COMMITTED",
+    "role": "ACCUSED",
+    "confidence": 0.95,
+    "label": "COMMITTED"
+  },
+  {
+    "source": "SUSP-0866B95A",
+    "target": "INC-102",
+    "edge_type": "COMMITTED",
+    "role": "ACCUSED",
+    "confidence": 0.95,
+    "label": "COMMITTED"
+  },
+  {
+    "source": "SUSP-E548F04A",
+    "target": "INC-103",
+    "edge_type": "COMMITTED",
+    "role": "ACCUSED",
+    "confidence": 0.95,
+    "label": "COMMITTED"
+  },
+  {
+    "source": "SUSP-1B8D7AC4",
+    "target": "INC-104",
+    "edge_type": "COMMITTED",
+    "role": "ACCUSED",
+    "confidence": 0.95,
+    "label": "COMMITTED"
+  },
+  {
+    "source": "SUSP-0385B63E",
+    "target": "INC-105",
+    "edge_type": "COMMITTED",
+    "role": "ACCUSED",
+    "confidence": 0.95,
+    "label": "COMMITTED"
+  },
+  {
+    "source": "SUSP-FB43CAB0",
+    "target": "INC-106",
+    "edge_type": "COMMITTED",
+    "role": "ACCUSED",
+    "confidence": 0.95,
+    "label": "COMMITTED"
+  },
+  {
+    "source": "SUSP-D6BB3157",
+    "target": "INC-107",
+    "edge_type": "COMMITTED",
+    "role": "ACCUSED",
+    "confidence": 0.95,
+    "label": "COMMITTED"
+  },
+  {
+    "source": "SUSP-E8336F96",
+    "target": "INC-108",
+    "edge_type": "COMMITTED",
+    "role": "ACCUSED",
+    "confidence": 0.95,
+    "label": "COMMITTED"
+  },
+  {
+    "source": "SUSP-35390369",
+    "target": "INC-109",
+    "edge_type": "COMMITTED",
+    "role": "ACCUSED",
+    "confidence": 0.95,
+    "label": "COMMITTED"
+  },
+  {
+    "source": "SUSP-C680B547",
+    "target": "INC-110",
+    "edge_type": "COMMITTED",
+    "role": "ACCUSED",
+    "confidence": 0.95,
+    "label": "COMMITTED"
+  },
+  {
+    "source": "SUSP-725399BC",
+    "target": "INC-111",
+    "edge_type": "COMMITTED",
+    "role": "ACCUSED",
+    "confidence": 0.95,
+    "label": "COMMITTED"
+  },
+  {
+    "source": "SUSP-D21477A8",
+    "target": "INC-112",
+    "edge_type": "COMMITTED",
+    "role": "ACCUSED",
+    "confidence": 0.95,
+    "label": "COMMITTED"
+  },
+  {
+    "source": "SUSP-CFBC98C4",
+    "target": "INC-113",
+    "edge_type": "COMMITTED",
+    "role": "ACCUSED",
+    "confidence": 0.95,
+    "label": "COMMITTED"
+  },
+  {
+    "source": "SUSP-CEA70BF9",
+    "target": "INC-114",
+    "edge_type": "COMMITTED",
+    "role": "ACCUSED",
+    "confidence": 0.95,
+    "label": "COMMITTED"
+  },
+  {
+    "source": "SUSP-F2BFD822",
+    "target": "INC-115",
+    "edge_type": "COMMITTED",
+    "role": "ACCUSED",
+    "confidence": 0.95,
+    "label": "COMMITTED"
+  },
+  {
+    "source": "SUSP-5FF803D9",
+    "target": "INC-116",
+    "edge_type": "COMMITTED",
+    "role": "ACCUSED",
+    "confidence": 0.95,
+    "label": "COMMITTED"
+  },
+  {
+    "source": "SUSP-6CD39656",
+    "target": "INC-117",
+    "edge_type": "COMMITTED",
+    "role": "ACCUSED",
+    "confidence": 0.95,
+    "label": "COMMITTED"
+  },
+  {
+    "source": "SUSP-1328D560",
+    "target": "INC-118",
+    "edge_type": "COMMITTED",
+    "role": "ACCUSED",
+    "confidence": 0.95,
+    "label": "COMMITTED"
+  },
+  {
+    "source": "SUSP-B9E21F9C",
+    "target": "INC-119",
+    "edge_type": "COMMITTED",
+    "role": "ACCUSED",
+    "confidence": 0.95,
+    "label": "COMMITTED"
+  },
+  {
+    "source": "SUSP-AFC0B8C0",
+    "target": "INC-120",
+    "edge_type": "COMMITTED",
+    "role": "ACCUSED",
+    "confidence": 0.95,
+    "label": "COMMITTED"
+  },
+  {
+    "source": "SUSP-6EC88144",
+    "target": "INC-121",
+    "edge_type": "COMMITTED",
+    "role": "ACCUSED",
+    "confidence": 0.95,
+    "label": "COMMITTED"
+  },
+  {
+    "source": "SUSP-9F4C8ABE",
+    "target": "INC-122",
+    "edge_type": "COMMITTED",
+    "role": "ACCUSED",
+    "confidence": 0.95,
+    "label": "COMMITTED"
+  },
+  {
+    "source": "SUSP-D6D3C6A1",
+    "target": "INC-123",
+    "edge_type": "COMMITTED",
+    "role": "ACCUSED",
+    "confidence": 0.95,
+    "label": "COMMITTED"
+  },
+  {
+    "source": "SUSP-472261CB",
+    "target": "INC-124",
+    "edge_type": "COMMITTED",
+    "role": "ACCUSED",
+    "confidence": 0.95,
+    "label": "COMMITTED"
+  },
+  {
+    "source": "SUSP-E829289F",
+    "target": "INC-125",
+    "edge_type": "COMMITTED",
+    "role": "ACCUSED",
+    "confidence": 0.95,
+    "label": "COMMITTED"
+  },
+  {
+    "source": "SUSP-DBA3397F",
+    "target": "VEH-73D02199",
+    "edge_type": "OWNS",
+    "registered": true,
+    "confidence": 1.0,
+    "label": "OWNS"
+  },
+  {
+    "source": "SUSP-E0F10031",
+    "target": "VEH-0FFBFB96",
+    "edge_type": "OWNS",
+    "registered": true,
+    "confidence": 1.0,
+    "label": "OWNS"
+  },
+  {
+    "source": "SUSP-0866B95A",
+    "target": "VEH-E1B4049B",
+    "edge_type": "OWNS",
+    "registered": true,
+    "confidence": 1.0,
+    "label": "OWNS"
+  },
+  {
+    "source": "SUSP-E548F04A",
+    "target": "VEH-05C00261",
+    "edge_type": "OWNS",
+    "registered": true,
+    "confidence": 1.0,
+    "label": "OWNS"
+  },
+  {
+    "source": "SUSP-1B8D7AC4",
+    "target": "VEH-66599A44",
+    "edge_type": "OWNS",
+    "registered": true,
+    "confidence": 1.0,
+    "label": "OWNS"
+  },
+  {
+    "source": "SUSP-0385B63E",
+    "target": "VEH-332D735B",
+    "edge_type": "OWNS",
+    "registered": true,
+    "confidence": 1.0,
+    "label": "OWNS"
+  },
+  {
+    "source": "SUSP-FB43CAB0",
+    "target": "VEH-C7282E84",
+    "edge_type": "OWNS",
+    "registered": true,
+    "confidence": 1.0,
+    "label": "OWNS"
+  },
+  {
+    "source": "SUSP-D6BB3157",
+    "target": "VEH-C0B43676",
+    "edge_type": "OWNS",
+    "registered": true,
+    "confidence": 1.0,
+    "label": "OWNS"
+  },
+  {
+    "source": "SUSP-E8336F96",
+    "target": "VEH-6B7467EC",
+    "edge_type": "OWNS",
+    "registered": true,
+    "confidence": 1.0,
+    "label": "OWNS"
+  },
+  {
+    "source": "SUSP-35390369",
+    "target": "VEH-839F70D1",
+    "edge_type": "OWNS",
+    "registered": true,
+    "confidence": 1.0,
+    "label": "OWNS"
+  },
+  {
+    "source": "SUSP-C680B547",
+    "target": "VEH-B0335B86",
+    "edge_type": "OWNS",
+    "registered": true,
+    "confidence": 1.0,
+    "label": "OWNS"
+  },
+  {
+    "source": "SUSP-725399BC",
+    "target": "VEH-E1EA2E44",
+    "edge_type": "OWNS",
+    "registered": true,
+    "confidence": 1.0,
+    "label": "OWNS"
+  },
+  {
+    "source": "SUSP-D21477A8",
+    "target": "VEH-4111B04A",
+    "edge_type": "OWNS",
+    "registered": true,
+    "confidence": 1.0,
+    "label": "OWNS"
+  },
+  {
+    "source": "SUSP-CFBC98C4",
+    "target": "VEH-F057437A",
+    "edge_type": "OWNS",
+    "registered": true,
+    "confidence": 1.0,
+    "label": "OWNS"
+  },
+  {
+    "source": "SUSP-CEA70BF9",
+    "target": "VEH-2C5C39D7",
+    "edge_type": "OWNS",
+    "registered": true,
+    "confidence": 1.0,
+    "label": "OWNS"
+  },
+  {
+    "source": "SUSP-F2BFD822",
+    "target": "VEH-2EBD00ED",
+    "edge_type": "OWNS",
+    "registered": true,
+    "confidence": 1.0,
+    "label": "OWNS"
+  },
+  {
+    "source": "SUSP-5FF803D9",
+    "target": "VEH-BB0FE6D2",
+    "edge_type": "OWNS",
+    "registered": true,
+    "confidence": 1.0,
+    "label": "OWNS"
+  },
+  {
+    "source": "SUSP-6CD39656",
+    "target": "VEH-7498DB1F",
+    "edge_type": "OWNS",
+    "registered": true,
+    "confidence": 1.0,
+    "label": "OWNS"
+  },
+  {
+    "source": "SUSP-1328D560",
+    "target": "VEH-A3170325",
+    "edge_type": "OWNS",
+    "registered": true,
+    "confidence": 1.0,
+    "label": "OWNS"
+  },
+  {
+    "source": "SUSP-B9E21F9C",
+    "target": "VEH-B27CE975",
+    "edge_type": "OWNS",
+    "registered": true,
+    "confidence": 1.0,
+    "label": "OWNS"
+  },
+  {
+    "source": "SUSP-DBA3397F",
+    "target": "ACC-766374803481",
+    "edge_type": "OWNS",
+    "registered": true,
+    "confidence": 1.0,
+    "label": "OWNS"
+  },
+  {
+    "source": "SUSP-E0F10031",
+    "target": "ACC-384812439642",
+    "edge_type": "OWNS",
+    "registered": true,
+    "confidence": 1.0,
+    "label": "OWNS"
+  },
+  {
+    "source": "SUSP-0866B95A",
+    "target": "ACC-353514425818",
+    "edge_type": "OWNS",
+    "registered": true,
+    "confidence": 1.0,
+    "label": "OWNS"
+  },
+  {
+    "source": "SUSP-E548F04A",
+    "target": "ACC-466486521413",
+    "edge_type": "OWNS",
+    "registered": true,
+    "confidence": 1.0,
+    "label": "OWNS"
+  },
+  {
+    "source": "SUSP-1B8D7AC4",
+    "target": "ACC-296798879534",
+    "edge_type": "OWNS",
+    "registered": true,
+    "confidence": 1.0,
+    "label": "OWNS"
+  },
+  {
+    "source": "SUSP-0385B63E",
+    "target": "ACC-612529738578",
+    "edge_type": "OWNS",
+    "registered": true,
+    "confidence": 1.0,
+    "label": "OWNS"
+  },
+  {
+    "source": "SUSP-FB43CAB0",
+    "target": "ACC-482247853346",
+    "edge_type": "OWNS",
+    "registered": true,
+    "confidence": 1.0,
+    "label": "OWNS"
+  },
+  {
+    "source": "SUSP-D6BB3157",
+    "target": "ACC-697181614188",
+    "edge_type": "OWNS",
+    "registered": true,
+    "confidence": 1.0,
+    "label": "OWNS"
+  },
+  {
+    "source": "SUSP-E8336F96",
+    "target": "ACC-329786647486",
+    "edge_type": "OWNS",
+    "registered": true,
+    "confidence": 1.0,
+    "label": "OWNS"
+  },
+  {
+    "source": "SUSP-35390369",
+    "target": "ACC-256475992789",
+    "edge_type": "OWNS",
+    "registered": true,
+    "confidence": 1.0,
+    "label": "OWNS"
+  },
+  {
+    "source": "SUSP-C680B547",
+    "target": "ACC-666075781997",
+    "edge_type": "OWNS",
+    "registered": true,
+    "confidence": 1.0,
+    "label": "OWNS"
+  },
+  {
+    "source": "SUSP-725399BC",
+    "target": "ACC-309844949907",
+    "edge_type": "OWNS",
+    "registered": true,
+    "confidence": 1.0,
+    "label": "OWNS"
+  },
+  {
+    "source": "SUSP-D21477A8",
+    "target": "ACC-647843525262",
+    "edge_type": "OWNS",
+    "registered": true,
+    "confidence": 1.0,
+    "label": "OWNS"
+  },
+  {
+    "source": "SUSP-CFBC98C4",
+    "target": "ACC-747862186252",
+    "edge_type": "OWNS",
+    "registered": true,
+    "confidence": 1.0,
+    "label": "OWNS"
+  },
+  {
+    "source": "SUSP-CEA70BF9",
+    "target": "ACC-692929521856",
+    "edge_type": "OWNS",
+    "registered": true,
+    "confidence": 1.0,
+    "label": "OWNS"
+  },
+  {
+    "source": "SUSP-F2BFD822",
+    "target": "ACC-893821638774",
+    "edge_type": "OWNS",
+    "registered": true,
+    "confidence": 1.0,
+    "label": "OWNS"
+  },
+  {
+    "source": "SUSP-5FF803D9",
+    "target": "ACC-542447094857",
+    "edge_type": "OWNS",
+    "registered": true,
+    "confidence": 1.0,
+    "label": "OWNS"
+  },
+  {
+    "source": "SUSP-6CD39656",
+    "target": "ACC-701515797658",
+    "edge_type": "OWNS",
+    "registered": true,
+    "confidence": 1.0,
+    "label": "OWNS"
+  },
+  {
+    "source": "SUSP-1328D560",
+    "target": "ACC-632151564567",
+    "edge_type": "OWNS",
+    "registered": true,
+    "confidence": 1.0,
+    "label": "OWNS"
+  },
+  {
+    "source": "SUSP-B9E21F9C",
+    "target": "ACC-418514103370",
+    "edge_type": "OWNS",
+    "registered": true,
+    "confidence": 1.0,
+    "label": "OWNS"
+  },
+  {
+    "source": "SUSP-AFC0B8C0",
+    "target": "ACC-278168073594",
+    "edge_type": "OWNS",
+    "registered": true,
+    "confidence": 1.0,
+    "label": "OWNS"
+  },
+  {
+    "source": "SUSP-6EC88144",
+    "target": "ACC-293023785463",
+    "edge_type": "OWNS",
+    "registered": true,
+    "confidence": 1.0,
+    "label": "OWNS"
+  },
+  {
+    "source": "SUSP-9F4C8ABE",
+    "target": "ACC-510629139359",
+    "edge_type": "OWNS",
+    "registered": true,
+    "confidence": 1.0,
+    "label": "OWNS"
+  },
+  {
+    "source": "SUSP-D6D3C6A1",
+    "target": "ACC-128896623183",
+    "edge_type": "OWNS",
+    "registered": true,
+    "confidence": 1.0,
+    "label": "OWNS"
+  },
+  {
+    "source": "SUSP-472261CB",
+    "target": "ACC-207847207143",
+    "edge_type": "OWNS",
+    "registered": true,
+    "confidence": 1.0,
+    "label": "OWNS"
+  },
+  {
+    "source": "SUSP-E829289F",
+    "target": "ACC-314240273866",
+    "edge_type": "OWNS",
+    "registered": true,
+    "confidence": 1.0,
+    "label": "OWNS"
+  },
+  {
+    "source": "SUSP-30F64EAD",
+    "target": "ACC-955471854354",
+    "edge_type": "OWNS",
+    "registered": true,
+    "confidence": 1.0,
+    "label": "OWNS"
+  },
+  {
+    "source": "SUSP-7FD424E4",
+    "target": "ACC-748217555736",
+    "edge_type": "OWNS",
+    "registered": true,
+    "confidence": 1.0,
+    "label": "OWNS"
+  },
+  {
+    "source": "SUSP-A781A559",
+    "target": "ACC-380756887348",
+    "edge_type": "OWNS",
+    "registered": true,
+    "confidence": 1.0,
+    "label": "OWNS"
+  },
+  {
+    "source": "SUSP-CE9FAB90",
+    "target": "ACC-349551933299",
+    "edge_type": "OWNS",
+    "registered": true,
+    "confidence": 1.0,
+    "label": "OWNS"
+  },
+  {
+    "source": "SUSP-0B0AF6C9",
+    "target": "ACC-215435669031",
+    "edge_type": "OWNS",
+    "registered": true,
+    "confidence": 1.0,
+    "label": "OWNS"
+  },
+  {
+    "source": "SUSP-AED0A0F2",
+    "target": "ACC-828476177571",
+    "edge_type": "OWNS",
+    "registered": true,
+    "confidence": 1.0,
+    "label": "OWNS"
+  },
+  {
+    "source": "SUSP-8FA52007",
+    "target": "ACC-865124454668",
+    "edge_type": "OWNS",
+    "registered": true,
+    "confidence": 1.0,
+    "label": "OWNS"
+  },
+  {
+    "source": "SUSP-1E25644F",
+    "target": "ACC-692365791346",
+    "edge_type": "OWNS",
+    "registered": true,
+    "confidence": 1.0,
+    "label": "OWNS"
+  },
+  {
+    "source": "SUSP-B3E26D33",
+    "target": "ACC-842811767767",
+    "edge_type": "OWNS",
+    "registered": true,
+    "confidence": 1.0,
+    "label": "OWNS"
+  },
+  {
+    "source": "SUSP-1F5F2B50",
+    "target": "ACC-460547404331",
+    "edge_type": "OWNS",
+    "registered": true,
+    "confidence": 1.0,
+    "label": "OWNS"
+  },
+  {
+    "source": "SUSP-D92C2C45",
+    "target": "ACC-373173689909",
+    "edge_type": "OWNS",
+    "registered": true,
+    "confidence": 1.0,
+    "label": "OWNS"
+  },
+  {
+    "source": "SUSP-F4F93BE9",
+    "target": "ACC-757456095171",
+    "edge_type": "OWNS",
+    "registered": true,
+    "confidence": 1.0,
+    "label": "OWNS"
+  },
+  {
+    "source": "SUSP-066960EA",
+    "target": "ACC-599917344998",
+    "edge_type": "OWNS",
+    "registered": true,
+    "confidence": 1.0,
+    "label": "OWNS"
+  },
+  {
+    "source": "SUSP-9FE167FA",
+    "target": "ACC-783498375000",
+    "edge_type": "OWNS",
+    "registered": true,
+    "confidence": 1.0,
+    "label": "OWNS"
+  },
+  {
+    "source": "SUSP-6163EB12",
+    "target": "ACC-106788216554",
+    "edge_type": "OWNS",
+    "registered": true,
+    "confidence": 1.0,
+    "label": "OWNS"
+  },
+  {
+    "source": "SUSP-EE57DC9E",
+    "target": "ACC-725567982307",
+    "edge_type": "OWNS",
+    "registered": true,
+    "confidence": 1.0,
+    "label": "OWNS"
+  },
+  {
+    "source": "SUSP-53588551",
+    "target": "ACC-918495853866",
+    "edge_type": "OWNS",
+    "registered": true,
+    "confidence": 1.0,
+    "label": "OWNS"
+  },
+  {
+    "source": "SUSP-B4313DD9",
+    "target": "ACC-507780573800",
+    "edge_type": "OWNS",
+    "registered": true,
+    "confidence": 1.0,
+    "label": "OWNS"
+  },
+  {
+    "source": "SUSP-C22295AA",
+    "target": "ACC-972882337714",
+    "edge_type": "OWNS",
+    "registered": true,
+    "confidence": 1.0,
+    "label": "OWNS"
+  },
+  {
+    "source": "SUSP-9F48E9E0",
+    "target": "ACC-915524482841",
+    "edge_type": "OWNS",
+    "registered": true,
+    "confidence": 1.0,
+    "label": "OWNS"
+  },
+  {
+    "source": "SUSP-E7A2E615",
+    "target": "ACC-948091887678",
+    "edge_type": "OWNS",
+    "registered": true,
+    "confidence": 1.0,
+    "label": "OWNS"
+  },
+  {
+    "source": "SUSP-BFB5AAEA",
+    "target": "ACC-934630933738",
+    "edge_type": "OWNS",
+    "registered": true,
+    "confidence": 1.0,
+    "label": "OWNS"
+  },
+  {
+    "source": "SUSP-B25DBA3A",
+    "target": "ACC-243379523372",
+    "edge_type": "OWNS",
+    "registered": true,
+    "confidence": 1.0,
+    "label": "OWNS"
+  },
+  {
+    "source": "SUSP-CA188809",
+    "target": "ACC-916394613350",
+    "edge_type": "OWNS",
+    "registered": true,
+    "confidence": 1.0,
+    "label": "OWNS"
+  },
+  {
+    "source": "SUSP-D0866CDD",
+    "target": "ACC-351155305365",
+    "edge_type": "OWNS",
+    "registered": true,
+    "confidence": 1.0,
+    "label": "OWNS"
+  },
+  {
+    "source": "SUSP-3604A769",
+    "target": "ACC-819354757963",
+    "edge_type": "OWNS",
+    "registered": true,
+    "confidence": 1.0,
+    "label": "OWNS"
+  },
+  {
+    "source": "SUSP-1D1292D4",
+    "target": "ACC-440228518076",
+    "edge_type": "OWNS",
+    "registered": true,
+    "confidence": 1.0,
+    "label": "OWNS"
+  },
+  {
+    "source": "SUSP-D2167801",
+    "target": "ACC-359323875694",
+    "edge_type": "OWNS",
+    "registered": true,
+    "confidence": 1.0,
+    "label": "OWNS"
+  },
+  {
+    "source": "SUSP-E3CCD1D1",
+    "target": "ACC-453657495906",
+    "edge_type": "OWNS",
+    "registered": true,
+    "confidence": 1.0,
+    "label": "OWNS"
+  },
+  {
+    "source": "SUSP-A8234267",
+    "target": "ACC-745781963183",
+    "edge_type": "OWNS",
+    "registered": true,
+    "confidence": 1.0,
+    "label": "OWNS"
+  },
+  {
+    "source": "SUSP-3C321EC7",
+    "target": "ACC-157944404546",
+    "edge_type": "OWNS",
+    "registered": true,
+    "confidence": 1.0,
+    "label": "OWNS"
+  },
+  {
+    "source": "SUSP-377150D0",
+    "target": "ACC-807974909357",
+    "edge_type": "OWNS",
+    "registered": true,
+    "confidence": 1.0,
+    "label": "OWNS"
+  },
+  {
+    "source": "SUSP-8B943652",
+    "target": "ACC-372586262468",
+    "edge_type": "OWNS",
+    "registered": true,
+    "confidence": 1.0,
+    "label": "OWNS"
+  },
+  {
+    "source": "SUSP-5C191B04",
+    "target": "ACC-294538165474",
+    "edge_type": "OWNS",
+    "registered": true,
+    "confidence": 1.0,
+    "label": "OWNS"
+  },
+  {
+    "source": "SUSP-D19CCB9C",
+    "target": "ACC-145030817127",
+    "edge_type": "OWNS",
+    "registered": true,
+    "confidence": 1.0,
+    "label": "OWNS"
+  },
+  {
+    "source": "SUSP-4B66AAA3",
+    "target": "ACC-904358183803",
+    "edge_type": "OWNS",
+    "registered": true,
+    "confidence": 1.0,
+    "label": "OWNS"
+  },
+  {
+    "source": "SUSP-9B30CDE7",
+    "target": "ACC-912492074103",
+    "edge_type": "OWNS",
+    "registered": true,
+    "confidence": 1.0,
+    "label": "OWNS"
+  },
+  {
+    "source": "SUSP-590FD9D7",
+    "target": "ACC-762245575861",
+    "edge_type": "OWNS",
+    "registered": true,
+    "confidence": 1.0,
+    "label": "OWNS"
+  },
+  {
+    "source": "SUSP-6F0E0A9B",
+    "target": "ACC-156679995238",
+    "edge_type": "OWNS",
+    "registered": true,
+    "confidence": 1.0,
+    "label": "OWNS"
+  },
+  {
+    "source": "SUSP-BCE4EA56",
+    "target": "ACC-215822725797",
+    "edge_type": "OWNS",
+    "registered": true,
+    "confidence": 1.0,
+    "label": "OWNS"
+  },
+  {
+    "source": "SUSP-557278C8",
+    "target": "ACC-570177301535",
+    "edge_type": "OWNS",
+    "registered": true,
+    "confidence": 1.0,
+    "label": "OWNS"
+  },
+  {
+    "source": "SUSP-AB7395C9",
+    "target": "ACC-973556586392",
+    "edge_type": "OWNS",
+    "registered": true,
+    "confidence": 1.0,
+    "label": "OWNS"
+  },
+  {
+    "source": "SUSP-7F139E7B",
+    "target": "ACC-539795436299",
+    "edge_type": "OWNS",
+    "registered": true,
+    "confidence": 1.0,
+    "label": "OWNS"
+  },
+  {
+    "source": "SUSP-F3D10FD5",
+    "target": "ACC-101228264392",
+    "edge_type": "OWNS",
+    "registered": true,
+    "confidence": 1.0,
+    "label": "OWNS"
+  },
+  {
+    "source": "SUSP-669A9F27",
+    "target": "ACC-710980201696",
+    "edge_type": "OWNS",
+    "registered": true,
+    "confidence": 1.0,
+    "label": "OWNS"
+  },
+  {
+    "source": "SUSP-8DA00F6F",
+    "target": "ACC-424786069380",
+    "edge_type": "OWNS",
+    "registered": true,
+    "confidence": 1.0,
+    "label": "OWNS"
+  },
+  {
+    "source": "SUSP-5ACD5686",
+    "target": "ACC-789620561252",
+    "edge_type": "OWNS",
+    "registered": true,
+    "confidence": 1.0,
+    "label": "OWNS"
+  },
+  {
+    "source": "SUSP-CA1E5165",
+    "target": "ACC-652756815308",
+    "edge_type": "OWNS",
+    "registered": true,
+    "confidence": 1.0,
+    "label": "OWNS"
+  },
+  {
+    "source": "SUSP-CFBF076F",
+    "target": "ACC-267068138996",
+    "edge_type": "OWNS",
+    "registered": true,
+    "confidence": 1.0,
+    "label": "OWNS"
+  },
+  {
+    "source": "SUSP-2D2F587A",
+    "target": "ACC-319421311813",
+    "edge_type": "OWNS",
+    "registered": true,
+    "confidence": 1.0,
+    "label": "OWNS"
+  },
+  {
+    "source": "SUSP-2AED6B16",
+    "target": "ACC-163936912085",
+    "edge_type": "OWNS",
+    "registered": true,
+    "confidence": 1.0,
+    "label": "OWNS"
+  },
+  {
+    "source": "SUSP-E791A52E",
+    "target": "ACC-196856436425",
+    "edge_type": "OWNS",
+    "registered": true,
+    "confidence": 1.0,
+    "label": "OWNS"
+  },
+  {
+    "source": "SUSP-49C1D7E6",
+    "target": "ACC-393146218957",
+    "edge_type": "OWNS",
+    "registered": true,
+    "confidence": 1.0,
+    "label": "OWNS"
+  },
+  {
+    "source": "SUSP-D0AC5A15",
+    "target": "ACC-828562242574",
+    "edge_type": "OWNS",
+    "registered": true,
+    "confidence": 1.0,
+    "label": "OWNS"
+  },
+  {
+    "source": "ACC-766374803481",
+    "target": "ACC-384812439642",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 49500.0,
+    "utr": "UTR2026011248726196",
+    "timestamp": "2026-01-13T18:00:00",
+    "is_suspicious": true,
+    "pattern": "STRUCTURING",
+    "label": "TRANSFERRED ₹49,500"
+  },
+  {
+    "source": "ACC-384812439642",
+    "target": "ACC-353514425818",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 49500.0,
+    "utr": "UTR2026011228945559",
+    "timestamp": "2026-01-14T03:00:00",
+    "is_suspicious": true,
+    "pattern": "STRUCTURING",
+    "label": "TRANSFERRED ₹49,500"
+  },
+  {
+    "source": "ACC-353514425818",
+    "target": "ACC-466486521413",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 49500.0,
+    "utr": "UTR2026011246056787",
+    "timestamp": "2026-01-14T12:00:00",
+    "is_suspicious": true,
+    "pattern": "STRUCTURING",
+    "label": "TRANSFERRED ₹49,500"
+  },
+  {
+    "source": "ACC-466486521413",
+    "target": "ACC-766374803481",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 49500.0,
+    "utr": "UTR2026011271941349",
+    "timestamp": "2026-01-14T21:00:00",
+    "is_suspicious": true,
+    "pattern": "STRUCTURING",
+    "label": "TRANSFERRED ₹49,500"
+  },
+  {
+    "source": "ACC-599917344998",
+    "target": "ACC-692365791346",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 49164.0,
+    "utr": "UTR2026652360273148",
+    "timestamp": "2026-01-02T21:37:00",
+    "is_suspicious": true,
+    "pattern": "STRUCTURING",
+    "label": "TRANSFERRED ₹49,164"
+  },
+  {
+    "source": "ACC-243379523372",
+    "target": "ACC-934630933738",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 350000.0,
+    "utr": "UTR2026987981042364",
+    "timestamp": "2026-02-16T06:27:00",
+    "is_suspicious": true,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹350,000"
+  },
+  {
+    "source": "ACC-725567982307",
+    "target": "ACC-128896623183",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 12000.0,
+    "utr": "UTR2026874904521107",
+    "timestamp": "2026-02-25T17:33:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹12,000"
+  },
+  {
+    "source": "ACC-692365791346",
+    "target": "ACC-466486521413",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 25000.0,
+    "utr": "UTR2026969708625474",
+    "timestamp": "2026-01-11T19:23:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹25,000"
+  },
+  {
+    "source": "ACC-353514425818",
+    "target": "ACC-440228518076",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 12000.0,
+    "utr": "UTR2026810326513920",
+    "timestamp": "2026-01-21T22:41:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹12,000"
+  },
+  {
+    "source": "ACC-783498375000",
+    "target": "ACC-955471854354",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 25000.0,
+    "utr": "UTR2026400316053389",
+    "timestamp": "2026-03-21T06:05:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹25,000"
+  },
+  {
+    "source": "ACC-466486521413",
+    "target": "ACC-912492074103",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 25000.0,
+    "utr": "UTR2026713245624888",
+    "timestamp": "2026-02-26T22:12:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹25,000"
+  },
+  {
+    "source": "ACC-789620561252",
+    "target": "ACC-256475992789",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 12000.0,
+    "utr": "UTR2026356955849044",
+    "timestamp": "2026-02-04T17:33:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹12,000"
+  },
+  {
+    "source": "ACC-612529738578",
+    "target": "ACC-453657495906",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 12000.0,
+    "utr": "UTR2026400540432478",
+    "timestamp": "2026-02-24T19:06:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹12,000"
+  },
+  {
+    "source": "ACC-267068138996",
+    "target": "ACC-948091887678",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 48302.0,
+    "utr": "UTR2026592759230294",
+    "timestamp": "2026-01-16T00:03:00",
+    "is_suspicious": true,
+    "pattern": "STRUCTURING",
+    "label": "TRANSFERRED ₹48,302"
+  },
+  {
+    "source": "ACC-243379523372",
+    "target": "ACC-157944404546",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 25000.0,
+    "utr": "UTR2026528196714568",
+    "timestamp": "2026-01-20T03:17:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹25,000"
+  },
+  {
+    "source": "ACC-757456095171",
+    "target": "ACC-256475992789",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 4200.0,
+    "utr": "UTR2026395646364120",
+    "timestamp": "2026-01-02T18:32:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹4,200"
+  },
+  {
+    "source": "ACC-542447094857",
+    "target": "ACC-918495853866",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 1500.0,
+    "utr": "UTR2026791020411888",
+    "timestamp": "2026-01-22T02:23:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹1,500"
+  },
+  {
+    "source": "ACC-393146218957",
+    "target": "ACC-157944404546",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 350000.0,
+    "utr": "UTR2026643369488881",
+    "timestamp": "2026-03-04T22:33:00",
+    "is_suspicious": true,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹350,000"
+  },
+  {
+    "source": "ACC-652756815308",
+    "target": "ACC-319421311813",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 45983.0,
+    "utr": "UTR2026812541351882",
+    "timestamp": "2026-03-05T01:29:00",
+    "is_suspicious": true,
+    "pattern": "STRUCTURING",
+    "label": "TRANSFERRED ₹45,983"
+  },
+  {
+    "source": "ACC-106788216554",
+    "target": "ACC-912492074103",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 25000.0,
+    "utr": "UTR2026421101649753",
+    "timestamp": "2026-01-03T03:23:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹25,000"
+  },
+  {
+    "source": "ACC-440228518076",
+    "target": "ACC-912492074103",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 85000.0,
+    "utr": "UTR2026173821661386",
+    "timestamp": "2026-03-06T00:21:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹85,000"
+  },
+  {
+    "source": "ACC-128896623183",
+    "target": "ACC-692365791346",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 85000.0,
+    "utr": "UTR2026385412372062",
+    "timestamp": "2026-02-28T17:31:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹85,000"
+  },
+  {
+    "source": "ACC-440228518076",
+    "target": "ACC-460547404331",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 4200.0,
+    "utr": "UTR2026196923624103",
+    "timestamp": "2026-01-18T16:04:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹4,200"
+  },
+  {
+    "source": "ACC-293023785463",
+    "target": "ACC-701515797658",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 4200.0,
+    "utr": "UTR2026443731882140",
+    "timestamp": "2026-02-11T23:21:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹4,200"
+  },
+  {
+    "source": "ACC-145030817127",
+    "target": "ACC-912492074103",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 350000.0,
+    "utr": "UTR2026621205641390",
+    "timestamp": "2026-02-14T03:19:00",
+    "is_suspicious": true,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹350,000"
+  },
+  {
+    "source": "ACC-466486521413",
+    "target": "ACC-692929521856",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 48155.0,
+    "utr": "UTR2026334553733535",
+    "timestamp": "2026-03-17T06:36:00",
+    "is_suspicious": true,
+    "pattern": "STRUCTURING",
+    "label": "TRANSFERRED ₹48,155"
+  },
+  {
+    "source": "ACC-701515797658",
+    "target": "ACC-807974909357",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 25000.0,
+    "utr": "UTR2026403787383927",
+    "timestamp": "2026-02-05T21:49:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹25,000"
+  },
+  {
+    "source": "ACC-106788216554",
+    "target": "ACC-893821638774",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 85000.0,
+    "utr": "UTR2026596130477055",
+    "timestamp": "2026-01-27T23:40:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹85,000"
+  },
+  {
+    "source": "ACC-819354757963",
+    "target": "ACC-904358183803",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 350000.0,
+    "utr": "UTR2026316756047160",
+    "timestamp": "2026-02-09T23:04:00",
+    "is_suspicious": true,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹350,000"
+  },
+  {
+    "source": "ACC-380756887348",
+    "target": "ACC-309844949907",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 350000.0,
+    "utr": "UTR2026945857633960",
+    "timestamp": "2026-02-04T21:08:00",
+    "is_suspicious": true,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹350,000"
+  },
+  {
+    "source": "ACC-904358183803",
+    "target": "ACC-692929521856",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 150000.0,
+    "utr": "UTR2026116295531454",
+    "timestamp": "2026-02-27T20:16:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹150,000"
+  },
+  {
+    "source": "ACC-380756887348",
+    "target": "ACC-612529738578",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 25000.0,
+    "utr": "UTR2026439988845909",
+    "timestamp": "2026-02-05T18:33:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹25,000"
+  },
+  {
+    "source": "ACC-893821638774",
+    "target": "ACC-599917344998",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 4200.0,
+    "utr": "UTR2026971367858483",
+    "timestamp": "2026-02-14T01:05:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹4,200"
+  },
+  {
+    "source": "ACC-215822725797",
+    "target": "ACC-647843525262",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 150000.0,
+    "utr": "UTR2026411275916517",
+    "timestamp": "2026-03-20T21:51:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹150,000"
+  },
+  {
+    "source": "ACC-256475992789",
+    "target": "ACC-725567982307",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 48131.0,
+    "utr": "UTR2026618189812050",
+    "timestamp": "2026-02-20T18:54:00",
+    "is_suspicious": true,
+    "pattern": "STRUCTURING",
+    "label": "TRANSFERRED ₹48,131"
+  },
+  {
+    "source": "ACC-701515797658",
+    "target": "ACC-948091887678",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 4200.0,
+    "utr": "UTR2026429464650477",
+    "timestamp": "2026-01-05T04:46:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹4,200"
+  },
+  {
+    "source": "ACC-351155305365",
+    "target": "ACC-934630933738",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 45640.0,
+    "utr": "UTR2026885486017908",
+    "timestamp": "2026-03-29T02:50:00",
+    "is_suspicious": true,
+    "pattern": "STRUCTURING",
+    "label": "TRANSFERRED ₹45,640"
+  },
+  {
+    "source": "ACC-128896623183",
+    "target": "ACC-351155305365",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 47779.0,
+    "utr": "UTR2026773222367315",
+    "timestamp": "2026-03-11T19:22:00",
+    "is_suspicious": true,
+    "pattern": "STRUCTURING",
+    "label": "TRANSFERRED ₹47,779"
+  },
+  {
+    "source": "ACC-510629139359",
+    "target": "ACC-145030817127",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 1500.0,
+    "utr": "UTR2026954018203587",
+    "timestamp": "2026-02-16T18:34:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹1,500"
+  },
+  {
+    "source": "ACC-915524482841",
+    "target": "ACC-267068138996",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 1500.0,
+    "utr": "UTR2026661052730357",
+    "timestamp": "2026-02-11T21:05:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹1,500"
+  },
+  {
+    "source": "ACC-482247853346",
+    "target": "ACC-353514425818",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 45296.0,
+    "utr": "UTR2026524444305486",
+    "timestamp": "2026-02-27T17:19:00",
+    "is_suspicious": true,
+    "pattern": "STRUCTURING",
+    "label": "TRANSFERRED ₹45,296"
+  },
+  {
+    "source": "ACC-948091887678",
+    "target": "ACC-918495853866",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 4200.0,
+    "utr": "UTR2026672379151139",
+    "timestamp": "2026-01-22T19:54:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹4,200"
+  },
+  {
+    "source": "ACC-482247853346",
+    "target": "ACC-293023785463",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 150000.0,
+    "utr": "UTR2026137815061024",
+    "timestamp": "2026-02-13T20:39:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹150,000"
+  },
+  {
+    "source": "ACC-380756887348",
+    "target": "ACC-215435669031",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 12000.0,
+    "utr": "UTR2026477923563329",
+    "timestamp": "2026-01-27T16:50:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹12,000"
+  },
+  {
+    "source": "ACC-453657495906",
+    "target": "ACC-692929521856",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 46041.0,
+    "utr": "UTR2026458069984023",
+    "timestamp": "2026-01-20T04:28:00",
+    "is_suspicious": true,
+    "pattern": "STRUCTURING",
+    "label": "TRANSFERRED ₹46,041"
+  },
+  {
+    "source": "ACC-918495853866",
+    "target": "ACC-783498375000",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 4200.0,
+    "utr": "UTR2026436162051133",
+    "timestamp": "2026-02-03T20:31:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹4,200"
+  },
+  {
+    "source": "ACC-666075781997",
+    "target": "ACC-163936912085",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 47617.0,
+    "utr": "UTR2026908270843770",
+    "timestamp": "2026-02-17T01:40:00",
+    "is_suspicious": true,
+    "pattern": "STRUCTURING",
+    "label": "TRANSFERRED ₹47,617"
+  },
+  {
+    "source": "ACC-163936912085",
+    "target": "ACC-101228264392",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 1500.0,
+    "utr": "UTR2026791881487741",
+    "timestamp": "2026-01-26T03:26:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹1,500"
+  },
+  {
+    "source": "ACC-424786069380",
+    "target": "ACC-157944404546",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 150000.0,
+    "utr": "UTR2026554889291947",
+    "timestamp": "2026-02-01T23:23:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹150,000"
+  },
+  {
+    "source": "ACC-106788216554",
+    "target": "ACC-762245575861",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 25000.0,
+    "utr": "UTR2026227799309293",
+    "timestamp": "2026-01-07T21:46:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹25,000"
+  },
+  {
+    "source": "ACC-145030817127",
+    "target": "ACC-819354757963",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 12000.0,
+    "utr": "UTR2026991452674391",
+    "timestamp": "2026-02-01T01:51:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹12,000"
+  },
+  {
+    "source": "ACC-507780573800",
+    "target": "ACC-145030817127",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 4200.0,
+    "utr": "UTR2026618566875232",
+    "timestamp": "2026-02-28T16:46:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹4,200"
+  },
+  {
+    "source": "ACC-466486521413",
+    "target": "ACC-156679995238",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 1500.0,
+    "utr": "UTR2026613018230773",
+    "timestamp": "2026-03-10T22:10:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹1,500"
+  },
+  {
+    "source": "ACC-542447094857",
+    "target": "ACC-359323875694",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 12000.0,
+    "utr": "UTR2026560534274995",
+    "timestamp": "2026-02-11T18:31:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹12,000"
+  },
+  {
+    "source": "ACC-842811767767",
+    "target": "ACC-955471854354",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 12000.0,
+    "utr": "UTR2026273902346504",
+    "timestamp": "2026-03-31T03:06:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹12,000"
+  },
+  {
+    "source": "ACC-309844949907",
+    "target": "ACC-460547404331",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 4200.0,
+    "utr": "UTR2026456325655360",
+    "timestamp": "2026-01-22T21:06:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹4,200"
+  },
+  {
+    "source": "ACC-256475992789",
+    "target": "ACC-351155305365",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 47772.0,
+    "utr": "UTR2026975059998598",
+    "timestamp": "2026-03-03T22:28:00",
+    "is_suspicious": true,
+    "pattern": "STRUCTURING",
+    "label": "TRANSFERRED ₹47,772"
+  },
+  {
+    "source": "ACC-418514103370",
+    "target": "ACC-440228518076",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 85000.0,
+    "utr": "UTR2026675902799627",
+    "timestamp": "2026-03-29T06:45:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹85,000"
+  },
+  {
+    "source": "ACC-101228264392",
+    "target": "ACC-652756815308",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 85000.0,
+    "utr": "UTR2026755359469015",
+    "timestamp": "2026-01-30T05:10:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹85,000"
+  },
+  {
+    "source": "ACC-807974909357",
+    "target": "ACC-145030817127",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 1500.0,
+    "utr": "UTR2026646932523312",
+    "timestamp": "2026-01-29T17:28:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹1,500"
+  },
+  {
+    "source": "ACC-916394613350",
+    "target": "ACC-482247853346",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 85000.0,
+    "utr": "UTR2026525077044035",
+    "timestamp": "2026-02-19T06:30:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹85,000"
+  },
+  {
+    "source": "ACC-842811767767",
+    "target": "ACC-807974909357",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 85000.0,
+    "utr": "UTR2026737820941930",
+    "timestamp": "2026-01-31T23:27:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹85,000"
+  },
+  {
+    "source": "ACC-294538165474",
+    "target": "ACC-372586262468",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 150000.0,
+    "utr": "UTR2026306696910826",
+    "timestamp": "2026-01-08T19:58:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹150,000"
+  },
+  {
+    "source": "ACC-106788216554",
+    "target": "ACC-652756815308",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 150000.0,
+    "utr": "UTR2026840606315727",
+    "timestamp": "2026-02-18T16:11:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹150,000"
+  },
+  {
+    "source": "ACC-157944404546",
+    "target": "ACC-918495853866",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 25000.0,
+    "utr": "UTR2026413495361948",
+    "timestamp": "2026-02-05T17:21:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹25,000"
+  },
+  {
+    "source": "ACC-145030817127",
+    "target": "ACC-207847207143",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 4200.0,
+    "utr": "UTR2026931794557197",
+    "timestamp": "2026-02-28T20:48:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹4,200"
+  },
+  {
+    "source": "ACC-453657495906",
+    "target": "ACC-916394613350",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 4200.0,
+    "utr": "UTR2026380483694079",
+    "timestamp": "2026-01-03T05:50:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹4,200"
+  },
+  {
+    "source": "ACC-647843525262",
+    "target": "ACC-424786069380",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 45987.0,
+    "utr": "UTR2026332937395105",
+    "timestamp": "2026-03-07T05:52:00",
+    "is_suspicious": true,
+    "pattern": "STRUCTURING",
+    "label": "TRANSFERRED ₹45,987"
+  },
+  {
+    "source": "ACC-145030817127",
+    "target": "ACC-539795436299",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 1500.0,
+    "utr": "UTR2026918909025870",
+    "timestamp": "2026-02-10T20:00:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹1,500"
+  },
+  {
+    "source": "ACC-652756815308",
+    "target": "ACC-692929521856",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 4200.0,
+    "utr": "UTR2026630445349421",
+    "timestamp": "2026-01-14T22:42:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹4,200"
+  },
+  {
+    "source": "ACC-294538165474",
+    "target": "ACC-156679995238",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 12000.0,
+    "utr": "UTR2026812174142574",
+    "timestamp": "2026-02-04T03:42:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹12,000"
+  },
+  {
+    "source": "ACC-372586262468",
+    "target": "ACC-349551933299",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 25000.0,
+    "utr": "UTR2026853751793514",
+    "timestamp": "2026-02-14T17:51:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹25,000"
+  },
+  {
+    "source": "ACC-934630933738",
+    "target": "ACC-972882337714",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 150000.0,
+    "utr": "UTR2026581514675933",
+    "timestamp": "2026-03-28T22:20:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹150,000"
+  },
+  {
+    "source": "ACC-762245575861",
+    "target": "ACC-542447094857",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 350000.0,
+    "utr": "UTR2026165023581634",
+    "timestamp": "2026-01-06T16:05:00",
+    "is_suspicious": true,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹350,000"
+  },
+  {
+    "source": "ACC-916394613350",
+    "target": "ACC-128896623183",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 25000.0,
+    "utr": "UTR2026570971228331",
+    "timestamp": "2026-01-27T22:28:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹25,000"
+  },
+  {
+    "source": "ACC-453657495906",
+    "target": "ACC-393146218957",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 25000.0,
+    "utr": "UTR2026318028473983",
+    "timestamp": "2026-03-18T02:30:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹25,000"
+  },
+  {
+    "source": "ACC-453657495906",
+    "target": "ACC-842811767767",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 350000.0,
+    "utr": "UTR2026407835196978",
+    "timestamp": "2026-01-14T01:32:00",
+    "is_suspicious": true,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹350,000"
+  },
+  {
+    "source": "ACC-828562242574",
+    "target": "ACC-163936912085",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 150000.0,
+    "utr": "UTR2026614647221920",
+    "timestamp": "2026-03-03T01:44:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹150,000"
+  },
+  {
+    "source": "ACC-393146218957",
+    "target": "ACC-243379523372",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 46115.0,
+    "utr": "UTR2026785656277607",
+    "timestamp": "2026-02-08T21:47:00",
+    "is_suspicious": true,
+    "pattern": "STRUCTURING",
+    "label": "TRANSFERRED ₹46,115"
+  },
+  {
+    "source": "ACC-612529738578",
+    "target": "ACC-865124454668",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 350000.0,
+    "utr": "UTR2026915389610385",
+    "timestamp": "2026-03-12T20:41:00",
+    "is_suspicious": true,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹350,000"
+  },
+  {
+    "source": "ACC-762245575861",
+    "target": "ACC-710980201696",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 350000.0,
+    "utr": "UTR2026142819662207",
+    "timestamp": "2026-03-19T21:22:00",
+    "is_suspicious": true,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹350,000"
+  },
+  {
+    "source": "ACC-748217555736",
+    "target": "ACC-163936912085",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 25000.0,
+    "utr": "UTR2026267316461062",
+    "timestamp": "2026-02-02T20:00:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹25,000"
+  },
+  {
+    "source": "ACC-293023785463",
+    "target": "ACC-647843525262",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 1500.0,
+    "utr": "UTR2026445413873102",
+    "timestamp": "2026-03-03T22:15:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹1,500"
+  },
+  {
+    "source": "ACC-972882337714",
+    "target": "ACC-692929521856",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 1500.0,
+    "utr": "UTR2026969851704314",
+    "timestamp": "2026-02-07T23:03:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹1,500"
+  },
+  {
+    "source": "ACC-440228518076",
+    "target": "ACC-309844949907",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 25000.0,
+    "utr": "UTR2026941635279161",
+    "timestamp": "2026-02-13T16:16:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹25,000"
+  },
+  {
+    "source": "ACC-319421311813",
+    "target": "ACC-747862186252",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 150000.0,
+    "utr": "UTR2026414307146179",
+    "timestamp": "2026-01-18T22:44:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹150,000"
+  },
+  {
+    "source": "ACC-692929521856",
+    "target": "ACC-807974909357",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 1500.0,
+    "utr": "UTR2026901033963508",
+    "timestamp": "2026-02-28T00:56:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹1,500"
+  },
+  {
+    "source": "ACC-599917344998",
+    "target": "ACC-507780573800",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 85000.0,
+    "utr": "UTR2026828198305913",
+    "timestamp": "2026-03-29T05:08:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹85,000"
+  },
+  {
+    "source": "ACC-725567982307",
+    "target": "ACC-542447094857",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 150000.0,
+    "utr": "UTR2026381873971519",
+    "timestamp": "2026-02-14T06:01:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹150,000"
+  },
+  {
+    "source": "ACC-725567982307",
+    "target": "ACC-666075781997",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 48591.0,
+    "utr": "UTR2026315912566381",
+    "timestamp": "2026-02-25T05:02:00",
+    "is_suspicious": true,
+    "pattern": "STRUCTURING",
+    "label": "TRANSFERRED ₹48,591"
+  },
+  {
+    "source": "ACC-955471854354",
+    "target": "ACC-710980201696",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 25000.0,
+    "utr": "UTR2026312791974823",
+    "timestamp": "2026-01-21T04:05:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹25,000"
+  },
+  {
+    "source": "ACC-916394613350",
+    "target": "ACC-215822725797",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 45823.0,
+    "utr": "UTR2026121099233785",
+    "timestamp": "2026-02-25T18:04:00",
+    "is_suspicious": true,
+    "pattern": "STRUCTURING",
+    "label": "TRANSFERRED ₹45,823"
+  },
+  {
+    "source": "ACC-156679995238",
+    "target": "ACC-692929521856",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 12000.0,
+    "utr": "UTR2026596125434823",
+    "timestamp": "2026-01-24T20:30:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹12,000"
+  },
+  {
+    "source": "ACC-314240273866",
+    "target": "ACC-296798879534",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 1500.0,
+    "utr": "UTR2026639494706053",
+    "timestamp": "2026-01-25T05:44:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹1,500"
+  },
+  {
+    "source": "ACC-934630933738",
+    "target": "ACC-807974909357",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 85000.0,
+    "utr": "UTR2026860364630756",
+    "timestamp": "2026-03-04T00:05:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹85,000"
+  },
+  {
+    "source": "ACC-384812439642",
+    "target": "ACC-156679995238",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 4200.0,
+    "utr": "UTR2026326447670518",
+    "timestamp": "2026-01-26T18:02:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹4,200"
+  },
+  {
+    "source": "ACC-745781963183",
+    "target": "ACC-934630933738",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 25000.0,
+    "utr": "UTR2026361526830632",
+    "timestamp": "2026-03-05T17:08:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹25,000"
+  },
+  {
+    "source": "ACC-453657495906",
+    "target": "ACC-278168073594",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 49370.0,
+    "utr": "UTR2026967264152688",
+    "timestamp": "2026-03-05T05:41:00",
+    "is_suspicious": true,
+    "pattern": "STRUCTURING",
+    "label": "TRANSFERRED ₹49,370"
+  },
+  {
+    "source": "ACC-296798879534",
+    "target": "ACC-842811767767",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 350000.0,
+    "utr": "UTR2026176997736581",
+    "timestamp": "2026-02-01T19:59:00",
+    "is_suspicious": true,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹350,000"
+  },
+  {
+    "source": "ACC-692929521856",
+    "target": "ACC-973556586392",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 12000.0,
+    "utr": "UTR2026586142476871",
+    "timestamp": "2026-02-10T05:12:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹12,000"
+  },
+  {
+    "source": "ACC-353514425818",
+    "target": "ACC-296798879534",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 46321.0,
+    "utr": "UTR2026860423795995",
+    "timestamp": "2026-01-11T18:40:00",
+    "is_suspicious": true,
+    "pattern": "STRUCTURING",
+    "label": "TRANSFERRED ₹46,321"
+  },
+  {
+    "source": "ACC-916394613350",
+    "target": "ACC-453657495906",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 350000.0,
+    "utr": "UTR2026469330666165",
+    "timestamp": "2026-01-03T02:20:00",
+    "is_suspicious": true,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹350,000"
+  },
+  {
+    "source": "ACC-418514103370",
+    "target": "ACC-710980201696",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 350000.0,
+    "utr": "UTR2026966498091058",
+    "timestamp": "2026-01-03T23:43:00",
+    "is_suspicious": true,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹350,000"
+  },
+  {
+    "source": "ACC-309844949907",
+    "target": "ACC-865124454668",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 25000.0,
+    "utr": "UTR2026488374380214",
+    "timestamp": "2026-02-23T17:08:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹25,000"
+  },
+  {
+    "source": "ACC-865124454668",
+    "target": "ACC-652756815308",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 150000.0,
+    "utr": "UTR2026396876808908",
+    "timestamp": "2026-03-26T00:06:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹150,000"
+  },
+  {
+    "source": "ACC-510629139359",
+    "target": "ACC-612529738578",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 350000.0,
+    "utr": "UTR2026658219993685",
+    "timestamp": "2026-02-14T04:41:00",
+    "is_suspicious": true,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹350,000"
+  },
+  {
+    "source": "ACC-701515797658",
+    "target": "ACC-145030817127",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 350000.0,
+    "utr": "UTR2026252810759783",
+    "timestamp": "2026-01-25T19:54:00",
+    "is_suspicious": true,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹350,000"
+  },
+  {
+    "source": "ACC-747862186252",
+    "target": "ACC-296798879534",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 46389.0,
+    "utr": "UTR2026304481992542",
+    "timestamp": "2026-03-14T20:47:00",
+    "is_suspicious": true,
+    "pattern": "STRUCTURING",
+    "label": "TRANSFERRED ₹46,389"
+  },
+  {
+    "source": "ACC-599917344998",
+    "target": "ACC-278168073594",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 47276.0,
+    "utr": "UTR2026448877353049",
+    "timestamp": "2026-02-01T17:50:00",
+    "is_suspicious": true,
+    "pattern": "STRUCTURING",
+    "label": "TRANSFERRED ₹47,276"
+  },
+  {
+    "source": "ACC-145030817127",
+    "target": "ACC-418514103370",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 350000.0,
+    "utr": "UTR2026889824900308",
+    "timestamp": "2026-03-13T05:15:00",
+    "is_suspicious": true,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹350,000"
+  },
+  {
+    "source": "ACC-807974909357",
+    "target": "ACC-789620561252",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 85000.0,
+    "utr": "UTR2026872441043608",
+    "timestamp": "2026-02-20T17:39:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹85,000"
+  },
+  {
+    "source": "ACC-207847207143",
+    "target": "ACC-482247853346",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 12000.0,
+    "utr": "UTR2026821024864744",
+    "timestamp": "2026-02-16T18:07:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹12,000"
+  },
+  {
+    "source": "ACC-666075781997",
+    "target": "ACC-692929521856",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 25000.0,
+    "utr": "UTR2026459204308769",
+    "timestamp": "2026-03-30T18:35:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹25,000"
+  },
+  {
+    "source": "ACC-296798879534",
+    "target": "ACC-747862186252",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 25000.0,
+    "utr": "UTR2026567608579845",
+    "timestamp": "2026-03-01T18:06:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹25,000"
+  },
+  {
+    "source": "ACC-256475992789",
+    "target": "ACC-128896623183",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 350000.0,
+    "utr": "UTR2026533263709164",
+    "timestamp": "2026-01-16T06:58:00",
+    "is_suspicious": true,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹350,000"
+  },
+  {
+    "source": "ACC-373173689909",
+    "target": "ACC-972882337714",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 150000.0,
+    "utr": "UTR2026463456235283",
+    "timestamp": "2026-02-03T02:04:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹150,000"
+  },
+  {
+    "source": "ACC-482247853346",
+    "target": "ACC-570177301535",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 12000.0,
+    "utr": "UTR2026921282168646",
+    "timestamp": "2026-01-05T01:34:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹12,000"
+  },
+  {
+    "source": "ACC-380756887348",
+    "target": "ACC-319421311813",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 85000.0,
+    "utr": "UTR2026215564952067",
+    "timestamp": "2026-01-10T05:40:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹85,000"
+  },
+  {
+    "source": "ACC-912492074103",
+    "target": "ACC-466486521413",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 12000.0,
+    "utr": "UTR2026978698501832",
+    "timestamp": "2026-03-04T00:16:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹12,000"
+  },
+  {
+    "source": "ACC-296798879534",
+    "target": "ACC-757456095171",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 350000.0,
+    "utr": "UTR2026171256662667",
+    "timestamp": "2026-02-07T03:45:00",
+    "is_suspicious": true,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹350,000"
+  },
+  {
+    "source": "ACC-972882337714",
+    "target": "ACC-349551933299",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 150000.0,
+    "utr": "UTR2026961506783426",
+    "timestamp": "2026-01-05T17:36:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹150,000"
+  },
+  {
+    "source": "ACC-106788216554",
+    "target": "ACC-632151564567",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 4200.0,
+    "utr": "UTR2026402912382959",
+    "timestamp": "2026-03-24T20:25:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹4,200"
+  },
+  {
+    "source": "ACC-766374803481",
+    "target": "ACC-314240273866",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 350000.0,
+    "utr": "UTR2026499858747272",
+    "timestamp": "2026-02-28T22:18:00",
+    "is_suspicious": true,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹350,000"
+  },
+  {
+    "source": "ACC-599917344998",
+    "target": "ACC-267068138996",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 25000.0,
+    "utr": "UTR2026521899173133",
+    "timestamp": "2026-01-03T21:14:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹25,000"
+  },
+  {
+    "source": "ACC-243379523372",
+    "target": "ACC-632151564567",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 45503.0,
+    "utr": "UTR2026705674600434",
+    "timestamp": "2026-01-08T17:06:00",
+    "is_suspicious": true,
+    "pattern": "STRUCTURING",
+    "label": "TRANSFERRED ₹45,503"
+  },
+  {
+    "source": "ACC-725567982307",
+    "target": "ACC-380756887348",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 1500.0,
+    "utr": "UTR2026227325654435",
+    "timestamp": "2026-03-31T04:00:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹1,500"
+  },
+  {
+    "source": "ACC-748217555736",
+    "target": "ACC-762245575861",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 1500.0,
+    "utr": "UTR2026235201871998",
+    "timestamp": "2026-01-02T17:28:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹1,500"
+  },
+  {
+    "source": "ACC-293023785463",
+    "target": "ACC-542447094857",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 12000.0,
+    "utr": "UTR2026719692706907",
+    "timestamp": "2026-03-17T04:36:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹12,000"
+  },
+  {
+    "source": "ACC-460547404331",
+    "target": "ACC-934630933738",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 150000.0,
+    "utr": "UTR2026309533107773",
+    "timestamp": "2026-02-02T02:05:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹150,000"
+  },
+  {
+    "source": "ACC-314240273866",
+    "target": "ACC-652756815308",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 45041.0,
+    "utr": "UTR2026568817539397",
+    "timestamp": "2026-03-31T02:46:00",
+    "is_suspicious": true,
+    "pattern": "STRUCTURING",
+    "label": "TRANSFERRED ₹45,041"
+  },
+  {
+    "source": "ACC-842811767767",
+    "target": "ACC-296798879534",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 1500.0,
+    "utr": "UTR2026792906802207",
+    "timestamp": "2026-03-08T22:38:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹1,500"
+  },
+  {
+    "source": "ACC-351155305365",
+    "target": "ACC-296798879534",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 48218.0,
+    "utr": "UTR2026395621145860",
+    "timestamp": "2026-01-16T19:11:00",
+    "is_suspicious": true,
+    "pattern": "STRUCTURING",
+    "label": "TRANSFERRED ₹48,218"
+  },
+  {
+    "source": "ACC-915524482841",
+    "target": "ACC-359323875694",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 150000.0,
+    "utr": "UTR2026788738866134",
+    "timestamp": "2026-03-05T01:37:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹150,000"
+  },
+  {
+    "source": "ACC-372586262468",
+    "target": "ACC-789620561252",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 12000.0,
+    "utr": "UTR2026895045482826",
+    "timestamp": "2026-02-02T06:08:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹12,000"
+  },
+  {
+    "source": "ACC-762245575861",
+    "target": "ACC-294538165474",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 46050.0,
+    "utr": "UTR2026973268732501",
+    "timestamp": "2026-02-11T05:31:00",
+    "is_suspicious": true,
+    "pattern": "STRUCTURING",
+    "label": "TRANSFERRED ₹46,050"
+  },
+  {
+    "source": "ACC-612529738578",
+    "target": "ACC-163936912085",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 350000.0,
+    "utr": "UTR2026335933101360",
+    "timestamp": "2026-03-12T19:02:00",
+    "is_suspicious": true,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹350,000"
+  },
+  {
+    "source": "ACC-934630933738",
+    "target": "ACC-842811767767",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 12000.0,
+    "utr": "UTR2026593775097647",
+    "timestamp": "2026-01-21T01:57:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹12,000"
+  },
+  {
+    "source": "ACC-612529738578",
+    "target": "ACC-912492074103",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 4200.0,
+    "utr": "UTR2026120602753593",
+    "timestamp": "2026-03-17T20:17:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹4,200"
+  },
+  {
+    "source": "ACC-893821638774",
+    "target": "ACC-599917344998",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 85000.0,
+    "utr": "UTR2026398088279538",
+    "timestamp": "2026-01-14T21:36:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹85,000"
+  },
+  {
+    "source": "ACC-296798879534",
+    "target": "ACC-207847207143",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 150000.0,
+    "utr": "UTR2026280819029090",
+    "timestamp": "2026-01-05T23:21:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹150,000"
+  },
+  {
+    "source": "ACC-710980201696",
+    "target": "ACC-466486521413",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 12000.0,
+    "utr": "UTR2026357960627173",
+    "timestamp": "2026-02-26T02:47:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹12,000"
+  },
+  {
+    "source": "ACC-215435669031",
+    "target": "ACC-373173689909",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 12000.0,
+    "utr": "UTR2026553854701242",
+    "timestamp": "2026-02-26T05:09:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹12,000"
+  },
+  {
+    "source": "ACC-372586262468",
+    "target": "ACC-542447094857",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 1500.0,
+    "utr": "UTR2026936003223622",
+    "timestamp": "2026-02-17T17:27:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹1,500"
+  },
+  {
+    "source": "ACC-440228518076",
+    "target": "ACC-372586262468",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 12000.0,
+    "utr": "UTR2026547297591014",
+    "timestamp": "2026-01-01T21:45:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹12,000"
+  },
+  {
+    "source": "ACC-309844949907",
+    "target": "ACC-157944404546",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 4200.0,
+    "utr": "UTR2026828316114552",
+    "timestamp": "2026-03-26T02:27:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹4,200"
+  },
+  {
+    "source": "ACC-915524482841",
+    "target": "ACC-207847207143",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 12000.0,
+    "utr": "UTR2026673053321152",
+    "timestamp": "2026-03-12T18:12:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹12,000"
+  },
+  {
+    "source": "ACC-101228264392",
+    "target": "ACC-748217555736",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 4200.0,
+    "utr": "UTR2026498732656752",
+    "timestamp": "2026-03-05T21:50:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹4,200"
+  },
+  {
+    "source": "ACC-612529738578",
+    "target": "ACC-955471854354",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 12000.0,
+    "utr": "UTR2026872535915608",
+    "timestamp": "2026-03-17T22:55:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹12,000"
+  },
+  {
+    "source": "ACC-278168073594",
+    "target": "ACC-748217555736",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 4200.0,
+    "utr": "UTR2026184522177489",
+    "timestamp": "2026-03-19T22:54:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹4,200"
+  },
+  {
+    "source": "ACC-747862186252",
+    "target": "ACC-904358183803",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 150000.0,
+    "utr": "UTR2026285812046185",
+    "timestamp": "2026-03-04T17:57:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹150,000"
+  },
+  {
+    "source": "ACC-828562242574",
+    "target": "ACC-893821638774",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 12000.0,
+    "utr": "UTR2026810118346191",
+    "timestamp": "2026-03-05T00:23:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹12,000"
+  },
+  {
+    "source": "ACC-701515797658",
+    "target": "ACC-973556586392",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 4200.0,
+    "utr": "UTR2026666845952049",
+    "timestamp": "2026-03-19T21:37:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹4,200"
+  },
+  {
+    "source": "ACC-128896623183",
+    "target": "ACC-701515797658",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 46758.0,
+    "utr": "UTR2026208836972690",
+    "timestamp": "2026-01-14T16:39:00",
+    "is_suspicious": true,
+    "pattern": "STRUCTURING",
+    "label": "TRANSFERRED ₹46,758"
+  },
+  {
+    "source": "ACC-157944404546",
+    "target": "ACC-267068138996",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 45092.0,
+    "utr": "UTR2026485932549997",
+    "timestamp": "2026-01-18T23:31:00",
+    "is_suspicious": true,
+    "pattern": "STRUCTURING",
+    "label": "TRANSFERRED ₹45,092"
+  },
+  {
+    "source": "ACC-666075781997",
+    "target": "ACC-440228518076",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 45736.0,
+    "utr": "UTR2026562671822616",
+    "timestamp": "2026-02-05T06:16:00",
+    "is_suspicious": true,
+    "pattern": "STRUCTURING",
+    "label": "TRANSFERRED ₹45,736"
+  },
+  {
+    "source": "ACC-349551933299",
+    "target": "ACC-460547404331",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 4200.0,
+    "utr": "UTR2026905798648239",
+    "timestamp": "2026-03-30T05:49:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹4,200"
+  },
+  {
+    "source": "ACC-652756815308",
+    "target": "ACC-243379523372",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 12000.0,
+    "utr": "UTR2026495273501767",
+    "timestamp": "2026-03-24T22:09:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹12,000"
+  },
+  {
+    "source": "ACC-460547404331",
+    "target": "ACC-710980201696",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 350000.0,
+    "utr": "UTR2026257360087985",
+    "timestamp": "2026-03-06T22:17:00",
+    "is_suspicious": true,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹350,000"
+  },
+  {
+    "source": "ACC-380756887348",
+    "target": "ACC-424786069380",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 25000.0,
+    "utr": "UTR2026676948389510",
+    "timestamp": "2026-03-29T04:11:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹25,000"
+  },
+  {
+    "source": "ACC-243379523372",
+    "target": "ACC-599917344998",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 150000.0,
+    "utr": "UTR2026602209725093",
+    "timestamp": "2026-02-11T04:00:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹150,000"
+  },
+  {
+    "source": "ACC-955471854354",
+    "target": "ACC-948091887678",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 12000.0,
+    "utr": "UTR2026977840555586",
+    "timestamp": "2026-03-15T04:15:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹12,000"
+  },
+  {
+    "source": "ACC-349551933299",
+    "target": "ACC-819354757963",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 25000.0,
+    "utr": "UTR2026564074185651",
+    "timestamp": "2026-03-12T05:03:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹25,000"
+  },
+  {
+    "source": "ACC-893821638774",
+    "target": "ACC-294538165474",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 12000.0,
+    "utr": "UTR2026493038036090",
+    "timestamp": "2026-03-14T22:19:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹12,000"
+  },
+  {
+    "source": "ACC-916394613350",
+    "target": "ACC-973556586392",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 85000.0,
+    "utr": "UTR2026130654804641",
+    "timestamp": "2026-03-13T03:05:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹85,000"
+  },
+  {
+    "source": "ACC-842811767767",
+    "target": "ACC-256475992789",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 1500.0,
+    "utr": "UTR2026861617777315",
+    "timestamp": "2026-01-14T16:00:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹1,500"
+  },
+  {
+    "source": "ACC-842811767767",
+    "target": "ACC-789620561252",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 25000.0,
+    "utr": "UTR2026899986998317",
+    "timestamp": "2026-02-12T04:07:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹25,000"
+  },
+  {
+    "source": "ACC-163936912085",
+    "target": "ACC-828476177571",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 85000.0,
+    "utr": "UTR2026108970165141",
+    "timestamp": "2026-01-24T06:18:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹85,000"
+  },
+  {
+    "source": "ACC-783498375000",
+    "target": "ACC-482247853346",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 350000.0,
+    "utr": "UTR2026838444999467",
+    "timestamp": "2026-02-06T20:18:00",
+    "is_suspicious": true,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹350,000"
+  },
+  {
+    "source": "ACC-353514425818",
+    "target": "ACC-912492074103",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 45647.0,
+    "utr": "UTR2026599923827507",
+    "timestamp": "2026-03-16T22:17:00",
+    "is_suspicious": true,
+    "pattern": "STRUCTURING",
+    "label": "TRANSFERRED ₹45,647"
+  },
+  {
+    "source": "ACC-747862186252",
+    "target": "ACC-570177301535",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 47948.0,
+    "utr": "UTR2026863317020217",
+    "timestamp": "2026-02-02T03:44:00",
+    "is_suspicious": true,
+    "pattern": "STRUCTURING",
+    "label": "TRANSFERRED ₹47,948"
+  },
+  {
+    "source": "ACC-842811767767",
+    "target": "ACC-725567982307",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 1500.0,
+    "utr": "UTR2026187185585297",
+    "timestamp": "2026-01-20T21:19:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹1,500"
+  },
+  {
+    "source": "ACC-666075781997",
+    "target": "ACC-647843525262",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 350000.0,
+    "utr": "UTR2026402016838337",
+    "timestamp": "2026-02-06T16:23:00",
+    "is_suspicious": true,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹350,000"
+  },
+  {
+    "source": "ACC-539795436299",
+    "target": "ACC-267068138996",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 1500.0,
+    "utr": "UTR2026396521545896",
+    "timestamp": "2026-02-06T18:43:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹1,500"
+  },
+  {
+    "source": "ACC-539795436299",
+    "target": "ACC-912492074103",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 45119.0,
+    "utr": "UTR2026444167926364",
+    "timestamp": "2026-01-11T03:07:00",
+    "is_suspicious": true,
+    "pattern": "STRUCTURING",
+    "label": "TRANSFERRED ₹45,119"
+  },
+  {
+    "source": "ACC-507780573800",
+    "target": "ACC-904358183803",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 49368.0,
+    "utr": "UTR2026845500962256",
+    "timestamp": "2026-03-21T23:40:00",
+    "is_suspicious": true,
+    "pattern": "STRUCTURING",
+    "label": "TRANSFERRED ₹49,368"
+  },
+  {
+    "source": "ACC-156679995238",
+    "target": "ACC-243379523372",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 1500.0,
+    "utr": "UTR2026222296469307",
+    "timestamp": "2026-01-24T04:25:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹1,500"
+  },
+  {
+    "source": "ACC-710980201696",
+    "target": "ACC-692365791346",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 48486.0,
+    "utr": "UTR2026570754984608",
+    "timestamp": "2026-03-09T05:23:00",
+    "is_suspicious": true,
+    "pattern": "STRUCTURING",
+    "label": "TRANSFERRED ₹48,486"
+  },
+  {
+    "source": "ACC-349551933299",
+    "target": "ACC-612529738578",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 47302.0,
+    "utr": "UTR2026757496669657",
+    "timestamp": "2026-03-08T01:39:00",
+    "is_suspicious": true,
+    "pattern": "STRUCTURING",
+    "label": "TRANSFERRED ₹47,302"
+  },
+  {
+    "source": "ACC-267068138996",
+    "target": "ACC-507780573800",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 1500.0,
+    "utr": "UTR2026758530333492",
+    "timestamp": "2026-02-15T20:26:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹1,500"
+  },
+  {
+    "source": "ACC-918495853866",
+    "target": "ACC-101228264392",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 150000.0,
+    "utr": "UTR2026480380313763",
+    "timestamp": "2026-03-30T22:05:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹150,000"
+  },
+  {
+    "source": "ACC-314240273866",
+    "target": "ACC-865124454668",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 4200.0,
+    "utr": "UTR2026460747949286",
+    "timestamp": "2026-01-19T23:33:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹4,200"
+  },
+  {
+    "source": "ACC-710980201696",
+    "target": "ACC-692929521856",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 85000.0,
+    "utr": "UTR2026599376822246",
+    "timestamp": "2026-02-22T06:15:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹85,000"
+  },
+  {
+    "source": "ACC-828562242574",
+    "target": "ACC-539795436299",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 12000.0,
+    "utr": "UTR2026998145306474",
+    "timestamp": "2026-01-09T03:41:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹12,000"
+  },
+  {
+    "source": "ACC-215822725797",
+    "target": "ACC-440228518076",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 150000.0,
+    "utr": "UTR2026932468354646",
+    "timestamp": "2026-01-24T20:48:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹150,000"
+  },
+  {
+    "source": "ACC-948091887678",
+    "target": "ACC-294538165474",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 350000.0,
+    "utr": "UTR2026136902978485",
+    "timestamp": "2026-03-09T03:43:00",
+    "is_suspicious": true,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹350,000"
+  },
+  {
+    "source": "ACC-128896623183",
+    "target": "ACC-762245575861",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 85000.0,
+    "utr": "UTR2026227999807842",
+    "timestamp": "2026-03-06T19:17:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹85,000"
+  },
+  {
+    "source": "ACC-215435669031",
+    "target": "ACC-510629139359",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 1500.0,
+    "utr": "UTR2026387098867016",
+    "timestamp": "2026-03-16T18:30:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹1,500"
+  },
+  {
+    "source": "ACC-293023785463",
+    "target": "ACC-393146218957",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 150000.0,
+    "utr": "UTR2026804274109019",
+    "timestamp": "2026-03-21T22:52:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹150,000"
+  },
+  {
+    "source": "ACC-145030817127",
+    "target": "ACC-296798879534",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 350000.0,
+    "utr": "UTR2026627094548512",
+    "timestamp": "2026-02-19T20:08:00",
+    "is_suspicious": true,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹350,000"
+  },
+  {
+    "source": "ACC-948091887678",
+    "target": "ACC-912492074103",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 47656.0,
+    "utr": "UTR2026773948337497",
+    "timestamp": "2026-02-05T16:34:00",
+    "is_suspicious": true,
+    "pattern": "STRUCTURING",
+    "label": "TRANSFERRED ₹47,656"
+  },
+  {
+    "source": "ACC-766374803481",
+    "target": "ACC-762245575861",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 350000.0,
+    "utr": "UTR2026258675863518",
+    "timestamp": "2026-01-24T01:52:00",
+    "is_suspicious": true,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹350,000"
+  },
+  {
+    "source": "ACC-652756815308",
+    "target": "ACC-893821638774",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 1500.0,
+    "utr": "UTR2026154137741039",
+    "timestamp": "2026-03-06T05:02:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹1,500"
+  },
+  {
+    "source": "ACC-912492074103",
+    "target": "ACC-692365791346",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 25000.0,
+    "utr": "UTR2026558116230274",
+    "timestamp": "2026-01-15T01:26:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹25,000"
+  },
+  {
+    "source": "ACC-893821638774",
+    "target": "ACC-842811767767",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 150000.0,
+    "utr": "UTR2026331253990688",
+    "timestamp": "2026-03-12T21:00:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹150,000"
+  },
+  {
+    "source": "ACC-510629139359",
+    "target": "ACC-748217555736",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 1500.0,
+    "utr": "UTR2026596197687641",
+    "timestamp": "2026-02-11T20:04:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹1,500"
+  },
+  {
+    "source": "ACC-915524482841",
+    "target": "ACC-828562242574",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 150000.0,
+    "utr": "UTR2026285028841011",
+    "timestamp": "2026-02-07T22:13:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹150,000"
+  },
+  {
+    "source": "ACC-632151564567",
+    "target": "ACC-807974909357",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 25000.0,
+    "utr": "UTR2026629033493348",
+    "timestamp": "2026-03-17T18:27:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹25,000"
+  },
+  {
+    "source": "ACC-309844949907",
+    "target": "ACC-666075781997",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 150000.0,
+    "utr": "UTR2026376063078012",
+    "timestamp": "2026-03-28T05:48:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹150,000"
+  },
+  {
+    "source": "ACC-934630933738",
+    "target": "ACC-747862186252",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 4200.0,
+    "utr": "UTR2026639966298558",
+    "timestamp": "2026-03-20T18:23:00",
+    "is_suspicious": false,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹4,200"
+  },
+  {
+    "source": "ACC-973556586392",
+    "target": "ACC-666075781997",
+    "edge_type": "TRANSFERRED_MONEY",
+    "amount": 350000.0,
+    "utr": "UTR2026385617551267",
+    "timestamp": "2026-02-19T18:05:00",
+    "is_suspicious": true,
+    "pattern": "NORMAL",
+    "label": "TRANSFERRED ₹350,000"
+  },
+  {
+    "source": "PHONE_+91-7616176879",
+    "target": "PHONE_+91-9876500001",
+    "edge_type": "CALLED",
+    "frequency": 8,
+    "confidence": 0.98,
+    "label": "CALLED (8x)"
+  },
+  {
+    "source": "PHONE_+91-7616176879",
+    "target": "PHONE_+91-9876500002",
+    "edge_type": "CALLED",
+    "frequency": 8,
+    "confidence": 0.98,
+    "label": "CALLED (8x)"
+  },
+  {
+    "source": "PHONE_+91-7616176879",
+    "target": "PHONE_+91-9876500003",
+    "edge_type": "CALLED",
+    "frequency": 8,
+    "confidence": 0.98,
+    "label": "CALLED (8x)"
+  },
+  {
+    "source": "PHONE_+91-8105911697",
+    "target": "PHONE_+91-8282502488",
+    "edge_type": "CALLED",
+    "frequency": 12,
+    "confidence": 0.98,
+    "label": "CALLED (12x)"
+  },
+  {
+    "source": "PHONE_+91-8282502488",
+    "target": "PHONE_+91-9206245227",
+    "edge_type": "CALLED",
+    "frequency": 12,
+    "confidence": 0.98,
+    "label": "CALLED (12x)"
+  },
+  {
+    "source": "PHONE_+91-7618381053",
+    "target": "PHONE_+91-8282502488",
+    "edge_type": "CALLED",
+    "frequency": 12,
+    "confidence": 0.98,
+    "label": "CALLED (12x)"
+  },
+  {
+    "source": "PHONE_+91-8083079146",
+    "target": "PHONE_+91-9123499999",
+    "edge_type": "CALLED",
+    "frequency": 3,
+    "confidence": 0.98,
+    "label": "CALLED (3x)"
+  },
+  {
+    "source": "PHONE_+91-8153817903",
+    "target": "PHONE_+91-9988776655",
+    "edge_type": "CALLED",
+    "frequency": 3,
+    "confidence": 0.98,
+    "label": "CALLED (3x)"
+  },
+  {
+    "source": "PHONE_+91-9529996799",
+    "target": "PHONE_+91-9979018658",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-8921551443",
+    "target": "PHONE_+91-9832610291",
+    "edge_type": "CALLED",
+    "frequency": 2,
+    "confidence": 0.98,
+    "label": "CALLED (2x)"
+  },
+  {
+    "source": "PHONE_+91-8282502488",
+    "target": "PHONE_+91-9539443922",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-8921551443",
+    "target": "PHONE_+91-9492560183",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-8606293161",
+    "target": "PHONE_+91-9902723359",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-7314210373",
+    "target": "PHONE_+91-8277315485",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-7816771766",
+    "target": "PHONE_+91-8894471025",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-7618441781",
+    "target": "PHONE_+91-9855429531",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-8288629005",
+    "target": "PHONE_+91-9266185936",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-7393026930",
+    "target": "PHONE_+91-7618381053",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-8282502488",
+    "target": "PHONE_+91-8636978143",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-8471244693",
+    "target": "PHONE_+91-8606293161",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-8185636037",
+    "target": "PHONE_+91-9530976453",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-9211874685",
+    "target": "PHONE_+91-9301508130",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-7393026930",
+    "target": "PHONE_+91-9530976453",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-9125913601",
+    "target": "PHONE_+91-9301508130",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-8531803746",
+    "target": "PHONE_+91-9388855738",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-8105911697",
+    "target": "PHONE_+91-8277315485",
+    "edge_type": "CALLED",
+    "frequency": 2,
+    "confidence": 0.98,
+    "label": "CALLED (2x)"
+  },
+  {
+    "source": "PHONE_+91-8471244693",
+    "target": "PHONE_+91-8896965837",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-7723022539",
+    "target": "PHONE_+91-8958220906",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-7308557207",
+    "target": "PHONE_+91-7723022539",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-7410566847",
+    "target": "PHONE_+91-7618441781",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-8531803746",
+    "target": "PHONE_+91-9125913601",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-7183534095",
+    "target": "PHONE_+91-8910525199",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-9835012345",
+    "target": "PHONE_+91-9902723359",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-7948915236",
+    "target": "PHONE_+91-9351295868",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-8492125696",
+    "target": "PHONE_+91-9979018658",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-8047987656",
+    "target": "PHONE_+91-8910525199",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-7723022539",
+    "target": "PHONE_+91-9081189957",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-7396922326",
+    "target": "PHONE_+91-9125913601",
+    "edge_type": "CALLED",
+    "frequency": 2,
+    "confidence": 0.98,
+    "label": "CALLED (2x)"
+  },
+  {
+    "source": "PHONE_+91-7038463991",
+    "target": "PHONE_+91-7816771766",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-8153817903",
+    "target": "PHONE_+91-8894471025",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-9529996799",
+    "target": "PHONE_+91-9822012852",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-7393026930",
+    "target": "PHONE_+91-8098389021",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-8185636037",
+    "target": "PHONE_+91-9912855594",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-7308557207",
+    "target": "PHONE_+91-8636978143",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-8412063604",
+    "target": "PHONE_+91-9912855594",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-8047987656",
+    "target": "PHONE_+91-8492125696",
+    "edge_type": "CALLED",
+    "frequency": 2,
+    "confidence": 0.98,
+    "label": "CALLED (2x)"
+  },
+  {
+    "source": "PHONE_+91-7839436134",
+    "target": "PHONE_+91-8921551443",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-9351295868",
+    "target": "PHONE_+91-9902723359",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-7948915236",
+    "target": "PHONE_+91-8531803746",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-8639040754",
+    "target": "PHONE_+91-9979018658",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-7618441781",
+    "target": "PHONE_+91-9492560183",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-8277315485",
+    "target": "PHONE_+91-8910525199",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-8894471025",
+    "target": "PHONE_+91-9994337067",
+    "edge_type": "CALLED",
+    "frequency": 2,
+    "confidence": 0.98,
+    "label": "CALLED (2x)"
+  },
+  {
+    "source": "PHONE_+91-8546912616",
+    "target": "PHONE_+91-9301508130",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-7314210373",
+    "target": "PHONE_+91-8894471025",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-7038463991",
+    "target": "PHONE_+91-7948915236",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-8185636037",
+    "target": "PHONE_+91-8606293161",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-7410566847",
+    "target": "PHONE_+91-8559712929",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-8282502488",
+    "target": "PHONE_+91-9529996799",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-7965717818",
+    "target": "PHONE_+91-9529996799",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-7972511165",
+    "target": "PHONE_+91-8047987656",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-7453798832",
+    "target": "PHONE_+91-8979929143",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-8412063604",
+    "target": "PHONE_+91-8896965837",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-7314210373",
+    "target": "PHONE_+91-9919806853",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-7131004337",
+    "target": "PHONE_+91-9902723359",
+    "edge_type": "CALLED",
+    "frequency": 2,
+    "confidence": 0.98,
+    "label": "CALLED (2x)"
+  },
+  {
+    "source": "PHONE_+91-7816771766",
+    "target": "PHONE_+91-9388855738",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-7618441781",
+    "target": "PHONE_+91-8153817903",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-7314210373",
+    "target": "PHONE_+91-8576451368",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-8576451368",
+    "target": "PHONE_+91-9994337067",
+    "edge_type": "CALLED",
+    "frequency": 3,
+    "confidence": 0.98,
+    "label": "CALLED (3x)"
+  },
+  {
+    "source": "PHONE_+91-8420318410",
+    "target": "PHONE_+91-8471244693",
+    "edge_type": "CALLED",
+    "frequency": 2,
+    "confidence": 0.98,
+    "label": "CALLED (2x)"
+  },
+  {
+    "source": "PHONE_+91-7972511165",
+    "target": "PHONE_+91-9855429531",
+    "edge_type": "CALLED",
+    "frequency": 2,
+    "confidence": 0.98,
+    "label": "CALLED (2x)"
+  },
+  {
+    "source": "PHONE_+91-8288629005",
+    "target": "PHONE_+91-8958220906",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-8098389021",
+    "target": "PHONE_+91-8979929143",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-7048666531",
+    "target": "PHONE_+91-9249496755",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-8083079146",
+    "target": "PHONE_+91-9994337067",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-8606293161",
+    "target": "PHONE_+91-8921551443",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-7485907745",
+    "target": "PHONE_+91-8682930409",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-7131004337",
+    "target": "PHONE_+91-7618381053",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-8277315485",
+    "target": "PHONE_+91-9529996799",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-8576451368",
+    "target": "PHONE_+91-9492560183",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-8047987656",
+    "target": "PHONE_+91-8531803746",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-8185636037",
+    "target": "PHONE_+91-9835012345",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-7391549709",
+    "target": "PHONE_+91-8531803746",
+    "edge_type": "CALLED",
+    "frequency": 3,
+    "confidence": 0.98,
+    "label": "CALLED (3x)"
+  },
+  {
+    "source": "PHONE_+91-7038463991",
+    "target": "PHONE_+91-7391549709",
+    "edge_type": "CALLED",
+    "frequency": 2,
+    "confidence": 0.98,
+    "label": "CALLED (2x)"
+  },
+  {
+    "source": "PHONE_+91-9086121198",
+    "target": "PHONE_+91-9822012852",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-8047987656",
+    "target": "PHONE_+91-8479201828",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-8636978143",
+    "target": "PHONE_+91-9902723359",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-8492125696",
+    "target": "PHONE_+91-8910525199",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-7308557207",
+    "target": "PHONE_+91-9965481596",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-9530976453",
+    "target": "PHONE_+91-9994337067",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-9301508130",
+    "target": "PHONE_+91-9822012852",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-8105911697",
+    "target": "PHONE_+91-8153817903",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-8979929143",
+    "target": "PHONE_+91-9979018658",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-9266185936",
+    "target": "PHONE_+91-9492560183",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-7723022539",
+    "target": "PHONE_+91-9387494318",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-8420318410",
+    "target": "PHONE_+91-9301508130",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-7048666531",
+    "target": "PHONE_+91-8639040754",
+    "edge_type": "CALLED",
+    "frequency": 2,
+    "confidence": 0.98,
+    "label": "CALLED (2x)"
+  },
+  {
+    "source": "PHONE_+91-7893059404",
+    "target": "PHONE_+91-8639040754",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-7314210373",
+    "target": "PHONE_+91-9206245227",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-7965717818",
+    "target": "PHONE_+91-9919806853",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-7453798832",
+    "target": "PHONE_+91-9902723359",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-8105911697",
+    "target": "PHONE_+91-9001957318",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-8958220906",
+    "target": "PHONE_+91-8979929143",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-8083079146",
+    "target": "PHONE_+91-8921551443",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-7618381053",
+    "target": "PHONE_+91-8894471025",
+    "edge_type": "CALLED",
+    "frequency": 2,
+    "confidence": 0.98,
+    "label": "CALLED (2x)"
+  },
+  {
+    "source": "PHONE_+91-8139280131",
+    "target": "PHONE_+91-8639040754",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-7393026930",
+    "target": "PHONE_+91-8682930409",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-8958220906",
+    "target": "PHONE_+91-9001957318",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-8282502488",
+    "target": "PHONE_+91-8559712929",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-7618381053",
+    "target": "PHONE_+91-8288629005",
+    "edge_type": "CALLED",
+    "frequency": 2,
+    "confidence": 0.98,
+    "label": "CALLED (2x)"
+  },
+  {
+    "source": "PHONE_+91-7723022539",
+    "target": "PHONE_+91-8921551443",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-7965717818",
+    "target": "PHONE_+91-9835012345",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-7618441781",
+    "target": "PHONE_+91-8412063604",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-7393026930",
+    "target": "PHONE_+91-9919806853",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-8471244693",
+    "target": "PHONE_+91-8921551443",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-7184323451",
+    "target": "PHONE_+91-9086121198",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-7839436134",
+    "target": "PHONE_+91-9206245227",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-8896965837",
+    "target": "PHONE_+91-9529996799",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-8471244693",
+    "target": "PHONE_+91-9822012852",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-8471244693",
+    "target": "PHONE_+91-9539443922",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-7948915236",
+    "target": "PHONE_+91-8288629005",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-7038463991",
+    "target": "PHONE_+91-9912855594",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-8576451368",
+    "target": "PHONE_+91-8682930409",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-7396922326",
+    "target": "PHONE_+91-8105911697",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-7038463991",
+    "target": "PHONE_+91-7131004337",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-7453798832",
+    "target": "PHONE_+91-9539443922",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-8894471025",
+    "target": "PHONE_+91-8910525199",
+    "edge_type": "CALLED",
+    "frequency": 2,
+    "confidence": 0.98,
+    "label": "CALLED (2x)"
+  },
+  {
+    "source": "PHONE_+91-8894471025",
+    "target": "PHONE_+91-9351295868",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-7183534095",
+    "target": "PHONE_+91-7396922326",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-8576451368",
+    "target": "PHONE_+91-9387494318",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-8639040754",
+    "target": "PHONE_+91-9301508130",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-8185636037",
+    "target": "PHONE_+91-9822012852",
+    "edge_type": "CALLED",
+    "frequency": 2,
+    "confidence": 0.98,
+    "label": "CALLED (2x)"
+  },
+  {
+    "source": "PHONE_+91-7410566847",
+    "target": "PHONE_+91-9529996799",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-7972511165",
+    "target": "PHONE_+91-8479201828",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-8105911697",
+    "target": "PHONE_+91-9351295868",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-9211874685",
+    "target": "PHONE_+91-9855429531",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-8139280131",
+    "target": "PHONE_+91-9835012345",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-7485907745",
+    "target": "PHONE_+91-9086121198",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-8682930409",
+    "target": "PHONE_+91-9492560183",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-7485907745",
+    "target": "PHONE_+91-9979018658",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-9086121198",
+    "target": "PHONE_+91-9902723359",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-7131004337",
+    "target": "PHONE_+91-7816771766",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-8559712929",
+    "target": "PHONE_+91-9919806853",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-8639040754",
+    "target": "PHONE_+91-9822012852",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-7314210373",
+    "target": "PHONE_+91-8379526075",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-8682930409",
+    "target": "PHONE_+91-9530976453",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-8277315485",
+    "target": "PHONE_+91-9387494318",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-8576451368",
+    "target": "PHONE_+91-9388855738",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-8412063604",
+    "target": "PHONE_+91-9206245227",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  },
+  {
+    "source": "PHONE_+91-7038463991",
+    "target": "PHONE_+91-8139280131",
+    "edge_type": "CALLED",
+    "frequency": 1,
+    "confidence": 0.98,
+    "label": "CALLED (1x)"
+  }
+]

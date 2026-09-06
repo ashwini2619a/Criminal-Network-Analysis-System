@@ -1,0 +1,23 @@
+username - admin
+password - admin123
+
+username - user
+password - user123
+
+Email_alert :
+	-> sender email - network.support.pat@jindalsteel.in
+	-> app password - qpws pbmk eczx kkyj
+	-> App Name - Network
+
+To change App :-
+	1.Go to Manage Account of sender's Email
+	2.Go to Security & Sign-in
+	3.Search for App password
+	4. Use the new app passwoed
+
+
+To Run the script :-
+	-> Use (python app.py) in the terminal
+	->Then Visit 10.36.48.51:5503
+
+
